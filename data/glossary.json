@@ -1,0 +1,152 @@
+{
+  "entries": [
+    {
+      "term": "ACB",
+      "definition": "Analyse coûts-bénéfices : L'ACB consiste à comparer l'ensemble des coûts et bénéfices associés à un projet, sur un horizon temporel donné. Les coûts et bénéfices sont exprimés en \nvaleur monétaire dès que possible. Dans les ACB, les résultats reposent principalement sur des indicateurs monétaires tels que la Valeur Actuelle Nette (VAN) ou le ratio bénéfices/coûts."
+    },
+    {
+      "term": "ASA",
+      "definition": "Association Syndicale Autorisée : Structure regroupant des propriétaires ou usagers pour réaliser et gérer collectivement des ouvrages ou services, notamment liés à l'irrigation."
+    },
+    {
+      "term": "CatNaT",
+      "definition": "Catastrophe Naturelle : Reconnaissance administrative permettant l'indemnisation de dommages causés par certains phénomènes naturels, dont les inondations."
+    },
+    {
+      "term": "Chiffre d'affaires",
+      "definition": "Montant total des ventes réalisées avant déduction des charges."
+    },
+    {
+      "term": "Coûts évités",
+      "definition": "Dommage ou perte économique qui ne se produit pas grâce aux effets du projet."
+    },
+    {
+      "term": "DV3F",
+      "definition": "Demande de Valeurs Foncières enrichie : Base de données qui combine les informations sur les transactions immobilières avec des données complémentaires sur les biens et leur environnement. Elle est utile pour analyser l'évolution des marchés fonciers et immobiliers."
+    },
+    {
+      "term": "DVF",
+      "definition": "Demande de Valeurs Foncières : Base de données publique recensant les transactions immobilières réalisées en France. Elle fournit notamment les prix de vente des biens immobiliers et des terrains."
+    },
+    {
+      "term": "Evaluation économique",
+      "definition": "L’évaluation économique vise à quantifier et à monétariser (dans la mesure du possible) les coûts et bénéfices des projets de SfN, sur toute leur durée de vie et pour l’ensemble des\nparties prenantes."
+    },
+    {
+      "term": "Impact(s)",
+      "definition": "Effets positifs ou négatifs, directs ou indirects, intentionnels ou non, induits par une intervention"
+    },
+    {
+      "term": "Ingénierie écologique",
+      "definition": "Ensemble des méthodes et techniques qui s'appuient sur les processus naturels pour préserver, restaurer ou gérer les écosystèmes et la biodiversité."
+    },
+    {
+      "term": "Marge brute",
+      "definition": "Différence entre le chiffre d'affaires générés par une activité et les dépenses nécessaires à sa réalisation."
+    },
+    {
+      "term": "Mesures d'accompagnement",
+      "definition": "Mesures qui participent participent à l’atteinte des objectifs de la SfN. Ces mesures contribuent en particulier à la mobilisation d’acteurs clés dont l’évolution de pratiques de gestion vers des pratiques de type SfN est nécessaire. Elles permettent également d’assurer le bon fonctionnement des SfN ou de partager leurs intérêts et bénéfices auprès de différentes populations cibles (via des mesures de communication, de sensibilisation des visiteurs etc.)."
+    },
+    {
+      "term": "Natura 2000",
+      "definition": "Site appartenant au réseau européen Natura 2000 visant à préserver les habitats naturels et les espèces d'intérêt communautaire."
+    },
+    {
+      "term": "NAF",
+      "definition": "Espaces Naturels, Agricoles et Forestiers : Catégorie regroupant les terrains non artificialisés. L'évolution des surfaces NAF est souvent utilisée pour mesurer la consommation d'espaces naturels, agricoles et forestiers ou les changements d'usage des sols."
+    },
+    {
+      "term": "Nappe phréatique",
+      "definition": "Réserve d'eau souterraine contenue dans le sous-sol."
+    },
+    {
+      "term": "PAPI",
+      "definition": "Programme d'Actions de Prévention des Inondations : Programme regroupant les actions destinées à réduire les risques et les dommages liés aux inondations sur un territoire."
+    },
+    {
+      "term": "PIB",
+      "definition": "Produit Intérieur Brut : Valeur totale des biens et services produits sur un territoire au cours d'une période donnée."
+    },
+    {
+      "term": "PLU",
+      "definition": "Plan Local d'Urbanisme : Document définissant les règles d'aménagement et d'utilisation des sols d'une commune."
+    },
+    {
+      "term": "PLUi",
+      "definition": "Plan Local d'Urbanisme intercommunal : Version du PLU élaborée à l'échelle de plusieurs communes."
+    },
+    {
+      "term": "REUT",
+      "definition": "Réutilisation des Eaux Usées Traitées : Réemploi d'eaux usées après traitement pour certains usages."
+    },
+    {
+      "term": "RICA",
+      "definition": "Réseau d'Information Comptable Agricole : Base de données fournissant des informations économiques et financières sur les exploitations agricoles."
+    },
+    {
+      "term": "RIDEA",
+      "definition": "Réseau d'Information sur la Durabilité des Exploitations Agricoles : Base de données fournissant des informations économiques sur les exploitations agricoles."
+    },
+    {
+      "term": "SAGE",
+      "definition": "Schéma d'Aménagement et de Gestion des Eaux : Document de planification locale visant à assurer une gestion équilibrée et durable de la ressource en eau."
+    },
+    {
+      "term": "SAU",
+      "definition": "Surface Agricole Utile : Ensemble des terres effectivement utilisées pour la production agricole."
+    },
+    {
+      "term": "SCOT",
+      "definition": "Schéma de Cohérence Territoriale : Document de planification définissant les grandes orientations d'aménagement d'un territoire."
+    },
+    {
+      "term": "Service écosystémique",
+      "definition": "Bénéfice fourni par la nature aux activités humaines (eau, climat, biodiversité, loisirs, paysage, etc.)."
+    },
+    {
+      "term": "SfN à dominante investissement",
+      "definition": "Solution nécessitant un investissement initial important mais générant peu de coûts de gestion par la suite."
+    },
+    {
+      "term": "SfN à dominante gestion",
+      "definition": "Solution nécessitant peu d'investissement initial mais impliquant des dépenses régulières de gestion et d'entretien."
+    },
+    {
+      "term": "SIQO",
+      "definition": "Signes d'Identification de la Qualité et de l'Origine : Dispositifs officiels valorisant des produits agricoles ou alimentaires (AOP, IGP, Label Rouge, etc.)."
+    },
+    {
+      "term": "SLGRI",
+      "definition": "Stratégie Locale de Gestion du Risque d'Inondation : Document définissant les objectifs et les actions à mettre en œuvre pour réduire les conséquences des inondations sur un territoire à risque."
+    },
+    {
+      "term": "Stress thermique",
+      "definition": "Situation dans laquelle des températures élevées affectent le confort, la santé ou les capacités physiques des personnes, des animaux ou des végétaux."
+    },
+    {
+      "term": "Tableau input-output",
+      "definition": "Outil économique décrivant les relations entre les différents secteurs d'activité d'une économie. Il permet d'estimer comment une variation de production dans un secteur (par exemple l'agriculture) peut avoir des répercussions sur d'autres secteurs (transformation, transport, commerce, etc.)."
+    },
+    {
+      "term": "Teruti",
+      "definition": "Enquête Teruti-Lucas : Dispositif statistique national permettant de suivre l'occupation et l'utilisation des sols en France. Les données Teruti peuvent être utilisées pour mesurer les changements d'usage des terres (agricoles, naturelles, forestières, artificialisées, etc.)."
+    },
+    {
+      "term": "TRI",
+      "definition": "Territoire à Risque Important d'Inondation : Territoire identifié par l'État comme particulièrement exposé au risque d'inondation et nécessitant une stratégie de gestion spécifique."
+    },
+    {
+      "term": "Valeur ajoutée",
+      "definition": "Richesse créée par une activité économique après déduction des consommations intermédiaires."
+    },
+    {
+      "term": "Valeur unitaire",
+      "definition": "Valeur associée à une unité de mesure donnée (m², ha, mètre linéaire, jour de travail, etc.)."
+    },
+    {
+      "term": "Zone d'expansion de crue",
+      "definition": "Zone destiné à être temporairement inondé lors des crues afin de stocker une partie de l'eau et de réduire les risques d'inondation en aval."
+    }
+  ]
+}

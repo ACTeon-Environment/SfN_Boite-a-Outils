@@ -1,0 +1,492 @@
+{
+  "byImpact": {
+    "1": [
+      {
+        "sector": "Secteur agricole",
+        "beneficiary": "Agriculteurs"
+      },
+      {
+        "sector": "Secteur forestier",
+        "beneficiary": "Sylviculteurs, propriétaires forestiers"
+      },
+      {
+        "sector": "Pêche professionnelle",
+        "beneficiary": "Pêcheurs professionnels"
+      },
+      {
+        "sector": "Immobilier",
+        "beneficiary": "Propriétaires fonciers"
+      }
+    ],
+    "2": [
+      {
+        "sector": "Secteur agricole",
+        "beneficiary": "Agriculteurs"
+      },
+      {
+        "sector": "Secteur agricole",
+        "beneficiary": "Acteurs de la filière agricole (ex. transformateurs, fournisseurs d'intrants)"
+      },
+      {
+        "sector": "Secteur forestier",
+        "beneficiary": "Sylviculteurs, propriétaires forestiers"
+      },
+      {
+        "sector": "Secteur forestier",
+        "beneficiary": "Entreprises de la filières bois (ex. scieries, transformateurs)"
+      },
+      {
+        "sector": "Pêche professionnelle",
+        "beneficiary": "Pêcheurs professionnels"
+      },
+      {
+        "sector": "Pêche professionnelle",
+        "beneficiary": "Entreprises de la filière halieutique (ex. mareyage, transformation)"
+      },
+      {
+        "sector": "Tourisme et loisirs",
+        "beneficiary": "Professionnels du tourisme et des activités de loisirs"
+      },
+      {
+        "sector": "Industrie",
+        "beneficiary": "Entreprises industrielles"
+      },
+      {
+        "sector": "Commerce",
+        "beneficiary": "Commerçants"
+      },
+      {
+        "sector": "Énergie",
+        "beneficiary": "Producteurs d'énergie"
+      },
+      {
+        "sector": "Population/habitants",
+        "beneficiary": "Habitants et autres populations concernées"
+      },
+      {
+        "sector": "Immobilier",
+        "beneficiary": "Propriétaires fonciers"
+      }
+    ],
+    "3": [
+      {
+        "sector": "Secteur agricole",
+        "beneficiary": "Agriculteurs"
+      },
+      {
+        "sector": "Secteur forestier",
+        "beneficiary": "Sylviculteurs, propriétaires forestiers"
+      },
+      {
+        "sector": "Pêche professionnelle",
+        "beneficiary": "Pêcheurs professionnels"
+      },
+      {
+        "sector": "Tourisme et loisirs",
+        "beneficiary": "Usagers des espaces naturels (ex. visiteurs, chasseurs, pêcheurs de loisirs)"
+      },
+      {
+        "sector": "Tourisme et loisirs",
+        "beneficiary": "Professionnels du tourisme et des activités de loisirs"
+      },
+      {
+        "sector": "Industrie",
+        "beneficiary": "Entreprises industrielles"
+      },
+      {
+        "sector": "Commerce",
+        "beneficiary": "Commerçants"
+      },
+      {
+        "sector": "AEP",
+        "beneficiary": "Gestionnaires des services d'eau potable"
+      },
+      {
+        "sector": "Énergie",
+        "beneficiary": "Producteurs d'énergie"
+      },
+      {
+        "sector": "Population/habitants",
+        "beneficiary": "Habitants et autres populations concernées"
+      },
+      {
+        "sector": "Immobilier",
+        "beneficiary": "Propriétaires fonciers"
+      }
+    ],
+    "4": [
+      {
+        "sector": "Secteur agricole",
+        "beneficiary": "Agriculteurs"
+      },
+      {
+        "sector": "Secteur forestier",
+        "beneficiary": "Sylviculteurs, propriétaires forestiers"
+      },
+      {
+        "sector": "Pêche professionnelle",
+        "beneficiary": "Pêcheurs professionnels"
+      },
+      {
+        "sector": "Tourisme et loisirs",
+        "beneficiary": "Usagers des espaces naturels (ex. visiteurs, chasseurs, pêcheurs de loisirs)"
+      },
+      {
+        "sector": "Tourisme et loisirs",
+        "beneficiary": "Professionnels du tourisme et des activités de loisirs"
+      },
+      {
+        "sector": "Industrie",
+        "beneficiary": "Entreprises industrielles"
+      },
+      {
+        "sector": "AEP",
+        "beneficiary": "Gestionnaires des services d'eau potable"
+      },
+      {
+        "sector": "Population/habitants",
+        "beneficiary": "Habitants et autres populations concernées"
+      }
+    ],
+    "5": [
+      {
+        "sector": "Secteur agricole",
+        "beneficiary": "Agriculteurs"
+      },
+      {
+        "sector": "Secteur agricole",
+        "beneficiary": "Acteurs de la filière agricole (ex. transformateurs, fournisseurs d'intrants)"
+      },
+      {
+        "sector": "Secteur forestier",
+        "beneficiary": "Sylviculteurs, propriétaires forestiers"
+      },
+      {
+        "sector": "Secteur forestier",
+        "beneficiary": "Entreprises de la filières bois (ex. scieries, transformateurs)"
+      },
+      {
+        "sector": "Pêche professionnelle",
+        "beneficiary": "Pêcheurs professionnels"
+      },
+      {
+        "sector": "Pêche professionnelle",
+        "beneficiary": "Entreprises de la filière halieutique (ex. mareyage, transformation)"
+      },
+      {
+        "sector": "Tourisme et loisirs",
+        "beneficiary": "Professionnels du tourisme et des activités de loisirs"
+      },
+      {
+        "sector": "Industrie",
+        "beneficiary": "Entreprises industrielles"
+      },
+      {
+        "sector": "Commerce",
+        "beneficiary": "Commerçants"
+      },
+      {
+        "sector": "Énergie",
+        "beneficiary": "Producteurs d'énergie"
+      },
+      {
+        "sector": "Population/habitants",
+        "beneficiary": "Habitants et autres populations concernées"
+      },
+      {
+        "sector": "Immobilier",
+        "beneficiary": "Propriétaires fonciers"
+      }
+    ],
+    "6": [
+      {
+        "sector": "Secteur agricole",
+        "beneficiary": "Agriculteurs"
+      },
+      {
+        "sector": "Secteur forestier",
+        "beneficiary": "Sylviculteurs, propriétaires forestiers"
+      },
+      {
+        "sector": "Tourisme et loisirs",
+        "beneficiary": "Usagers des espaces naturels (ex. visiteurs, chasseurs, pêcheurs de loisirs)"
+      },
+      {
+        "sector": "Tourisme et loisirs",
+        "beneficiary": "Professionnels du tourisme et des activités de loisirs"
+      },
+      {
+        "sector": "Industrie",
+        "beneficiary": "Entreprises industrielles"
+      },
+      {
+        "sector": "Commerce",
+        "beneficiary": "Commerçants"
+      },
+      {
+        "sector": "AEP",
+        "beneficiary": "Gestionnaires des services d'eau potable"
+      },
+      {
+        "sector": "Énergie",
+        "beneficiary": "Producteurs d'énergie"
+      },
+      {
+        "sector": "Population/habitants",
+        "beneficiary": "Habitants et autres populations concernées"
+      },
+      {
+        "sector": "Immobilier",
+        "beneficiary": "Propriétaires fonciers"
+      }
+    ],
+    "7": [
+      {
+        "sector": "Secteur agricole",
+        "beneficiary": "Agriculteurs"
+      },
+      {
+        "sector": "Secteur agricole",
+        "beneficiary": "Acteurs de la filière agricole (ex. transformateurs, fournisseurs d'intrants)"
+      },
+      {
+        "sector": "Secteur forestier",
+        "beneficiary": "Sylviculteurs, propriétaires forestiers"
+      },
+      {
+        "sector": "Secteur forestier",
+        "beneficiary": "Entreprises de la filières bois (ex. scieries, transformateurs)"
+      },
+      {
+        "sector": "Pêche professionnelle",
+        "beneficiary": "Pêcheurs professionnels"
+      },
+      {
+        "sector": "Tourisme et loisirs",
+        "beneficiary": "Usagers des espaces naturels (ex. visiteurs, chasseurs, pêcheurs de loisirs)"
+      },
+      {
+        "sector": "Tourisme et loisirs",
+        "beneficiary": "Professionnels du tourisme et des activités de loisirs"
+      },
+      {
+        "sector": "Industrie",
+        "beneficiary": "Entreprises industrielles"
+      },
+      {
+        "sector": "AEP",
+        "beneficiary": "Gestionnaires des services d'eau potable"
+      },
+      {
+        "sector": "Énergie",
+        "beneficiary": "Producteurs d'énergie"
+      },
+      {
+        "sector": "Population/habitants",
+        "beneficiary": "Habitants et autres populations concernées"
+      }
+    ],
+    "8": [
+      {
+        "sector": "Secteur agricole",
+        "beneficiary": "Agriculteurs"
+      },
+      {
+        "sector": "Secteur forestier",
+        "beneficiary": "Sylviculteurs, propriétaires forestiers"
+      },
+      {
+        "sector": "Tourisme et loisirs",
+        "beneficiary": "Usagers des espaces naturels (ex. visiteurs, chasseurs, pêcheurs de loisirs)"
+      },
+      {
+        "sector": "Tourisme et loisirs",
+        "beneficiary": "Professionnels du tourisme et des activités de loisirs"
+      },
+      {
+        "sector": "Industrie",
+        "beneficiary": "Entreprises industrielles"
+      },
+      {
+        "sector": "Commerce",
+        "beneficiary": "Commerçants"
+      },
+      {
+        "sector": "Énergie",
+        "beneficiary": "Producteurs d'énergie"
+      },
+      {
+        "sector": "Population/habitants",
+        "beneficiary": "Habitants et autres populations concernées"
+      },
+      {
+        "sector": "Immobilier",
+        "beneficiary": "Propriétaires fonciers"
+      }
+    ],
+    "9": [
+      {
+        "sector": "Secteur agricole",
+        "beneficiary": "Agriculteurs"
+      },
+      {
+        "sector": "Secteur agricole",
+        "beneficiary": "Acteurs de la filière agricole (ex. transformateurs, fournisseurs d'intrants)"
+      },
+      {
+        "sector": "Secteur forestier",
+        "beneficiary": "Sylviculteurs, propriétaires forestiers"
+      },
+      {
+        "sector": "Secteur forestier",
+        "beneficiary": "Entreprises de la filières bois (ex. scieries, transformateurs)"
+      },
+      {
+        "sector": "Pêche professionnelle",
+        "beneficiary": "Pêcheurs professionnels"
+      },
+      {
+        "sector": "Pêche professionnelle",
+        "beneficiary": "Entreprises de la filière halieutique (ex. mareyage, transformation)"
+      },
+      {
+        "sector": "Tourisme et loisirs",
+        "beneficiary": "Usagers des espaces naturels (ex. visiteurs, chasseurs, pêcheurs de loisirs)"
+      },
+      {
+        "sector": "Tourisme et loisirs",
+        "beneficiary": "Professionnels du tourisme et des activités de loisirs"
+      },
+      {
+        "sector": "Industrie",
+        "beneficiary": "Entreprises industrielles"
+      },
+      {
+        "sector": "Commerce",
+        "beneficiary": "Commerçants"
+      },
+      {
+        "sector": "AEP",
+        "beneficiary": "Gestionnaires des services d'eau potable"
+      },
+      {
+        "sector": "Population/habitants",
+        "beneficiary": "Habitants et autres populations concernées"
+      }
+    ],
+    "10": [
+      {
+        "sector": "Secteur agricole",
+        "beneficiary": "Agriculteurs"
+      },
+      {
+        "sector": "Secteur forestier",
+        "beneficiary": "Sylviculteurs, propriétaires forestiers"
+      },
+      {
+        "sector": "Secteur forestier",
+        "beneficiary": "Entreprises de la filières bois (ex. scieries, transformateurs)"
+      }
+    ],
+    "11": [
+      {
+        "sector": "Secteur agricole",
+        "beneficiary": "Agriculteurs"
+      },
+      {
+        "sector": "Secteur agricole",
+        "beneficiary": "Acteurs de la filière agricole (ex. transformateurs, fournisseurs d'intrants)"
+      },
+      {
+        "sector": "Secteur forestier",
+        "beneficiary": "Sylviculteurs, propriétaires forestiers"
+      },
+      {
+        "sector": "Secteur forestier",
+        "beneficiary": "Entreprises de la filières bois (ex. scieries, transformateurs)"
+      },
+      {
+        "sector": "Pêche professionnelle",
+        "beneficiary": "Pêcheurs professionnels"
+      },
+      {
+        "sector": "Pêche professionnelle",
+        "beneficiary": "Entreprises de la filière halieutique (ex. mareyage, transformation)"
+      }
+    ],
+    "12": [
+      {
+        "sector": "Tourisme et loisirs",
+        "beneficiary": "Usagers des espaces naturels (ex. visiteurs, chasseurs, pêcheurs de loisirs)"
+      },
+      {
+        "sector": "Tourisme et loisirs",
+        "beneficiary": "Professionnels du tourisme et des activités de loisirs"
+      },
+      {
+        "sector": "Commerce",
+        "beneficiary": "Commerçants"
+      },
+      {
+        "sector": "Population/habitants",
+        "beneficiary": "Habitants et autres populations concernées"
+      }
+    ],
+    "13": [
+      {
+        "sector": "Secteur agricole",
+        "beneficiary": "Agriculteurs"
+      },
+      {
+        "sector": "Secteur forestier",
+        "beneficiary": "Sylviculteurs, propriétaires forestiers"
+      },
+      {
+        "sector": "Tourisme et loisirs",
+        "beneficiary": "Usagers des espaces naturels (ex. visiteurs, chasseurs, pêcheurs de loisirs)"
+      },
+      {
+        "sector": "Tourisme et loisirs",
+        "beneficiary": "Professionnels du tourisme et des activités de loisirs"
+      },
+      {
+        "sector": "Commerce",
+        "beneficiary": "Commerçants"
+      },
+      {
+        "sector": "Population/habitants",
+        "beneficiary": "Habitants et autres populations concernées"
+      },
+      {
+        "sector": "Immobilier",
+        "beneficiary": "Propriétaires fonciers"
+      }
+    ],
+    "14": [
+      {
+        "sector": "Secteur agricole",
+        "beneficiary": "Agriculteurs"
+      },
+      {
+        "sector": "Secteur forestier",
+        "beneficiary": "Sylviculteurs, propriétaires forestiers"
+      },
+      {
+        "sector": "Pêche professionnelle",
+        "beneficiary": "Pêcheurs professionnels"
+      },
+      {
+        "sector": "Tourisme et loisirs",
+        "beneficiary": "Usagers des espaces naturels (ex. visiteurs, chasseurs, pêcheurs de loisirs)"
+      },
+      {
+        "sector": "Tourisme et loisirs",
+        "beneficiary": "Professionnels du tourisme et des activités de loisirs"
+      },
+      {
+        "sector": "Population/habitants",
+        "beneficiary": "Habitants et autres populations concernées"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Note introductive",
+  "intro": "L'objectif principal de cette boite à outils Excel est de vous accompagner pas-à-pas dans la mise en oeuvre d'évaluations socio-économiques des impacts (coûts et bénéfices) de la ou des Solutions fondées sur la Nature (SfN) que vous vous proposez de mettre en oeuvre ou que vous avez mises en oeuvre. \n\nDe telles évaluations pourront vous être utiles pour :\n1. Vous assurer de la pertinence économique de votre projet.\n2. Persuader vos partenaires ou financeurs du bien-fondé socio-économique de votre projet.\n3. Préciser la diversité des impacts et co-bénéfices attendus d'une prise en compte effective des SfN dans votre stratégie territoriale (par ex. SAGE).\n4. Démontrer à chacun, acteur et habitant de votre territoire, l'intérêt des SfN proposées et mises en oeuvre\n\nCette boite à outils propose une démarche simple et des approches méthodologiques pour collecter et analyser des données permettant d'estimer l'importance absolue ou relative de différents impacts (effets positifs ou négatifs, directs ou indirects, intentionnels ou non, induits par une intervention). Pour assurer leur fiabilité, pertinence et valeur-ajoutée dans vos processus de décision ou de partage, de telles approches méthodologiques gagnent à être menée dans un processus plus large associant des acteurs clés de votre territoire impliquées dans la mise en oeuvre de votre projet ou impactés par la SfN proposée ou mise en oeuvre. Ce processus peut comprendre: (1) des entretiens avec ces acteurs pour identifier la manière dont ils pourraient être impactés, collecter des données locales pertinentes et valider l'ordre de grandeur de certains impacts (p.e. estimation d'une augmentation de fréquentation d'un site d'activités de loisirs); (2) des temps d'échange collectifs permettant de consolider la liste des impacts attendus ou obtenus de la SfN, consolider et affiner les résultats issues des analyses menées pur chaque catégorie d'impact, et assurer l'appropriation de la diversité des impacts et co-bénéfices.",
+  "howTo": "Rien de plus simple, à adapter selon ce que vous recherchez et vos besoins.\n\n1. Vous voulez mener une évaluation complète des impacts socio-économiques de votre projet SfN => suivez une à une les 5 étapes proposées, le menu vous aidant à passe d'une étape à l'autre de la sélection de la ou des SfN que vous voulez analyser (Etape 1 - Sélectionner la SfN) jusqu'à la représentation synthétique des résultats de votre évaluation (Etape 6 - Analyser et représenter). \n\n2. Vous êtes intéressés par les méthodes à mettre en oeuvre pour évaluer une famille d'impact spécifiques => rendez vous à l'onglet 5. Appliquer et laisser vous guider vers les méthodes des impacts socio-économiques qui vous intéressent. Certaines valeurs de références issues de la littérature de coûts de mesures dites SfN, ou de coûts évités par les services qu'elles rendent, sont également fourni dans des onglets Données: à utiliser avec précaution car pouvant être datées et ne représentant pas forcément le contexte de votre intervention (mais ces valeurs vous donnent une première direction). \n\n3. Vous cherchez à identifier les références existantes (articles, rapports, guides...) qui abordent un impact socio-économique particulier => rendez vous directement à l'onglet \"Références\".\n\n4. Vous cherchez les définitions de certains termes => rendez vous directement à l'onglet \"Glossaire\".\n\n5. Vous voulez avoir une image complète sur la méthodologie utilisée pour caractériser les différents types de SfN analysés et les impacts qui leur sont associés => rendez vous directement à l'onglet \"Catégorisation SfN Eléments\"\n\nVoici quelques repères pour vous guider dans l'utilisation de la boîte à outil : \n- Les cellules de couleur jaune sont à renseigner par l'utilisateur.\n- Les cellules de couleur vert clair sont renseignées automatiquement par l'outil à partir des informations saisies.\n- Les cellules de couleur bleu foncé correspondent aux en-têtes des bases de données et tableaux de référence mobilisés dans l'outil.\n- Les cellules de couleur bleu clair apportent des informations complémentaires pour vous aider à utiliser l'outil. \n- Les cellules de couleur grise indiquent les parties vides du tableau.",
+  "steps": [
+    {
+      "title": "Etape 1 - Sélectionner la SfN",
+      "description": "Choisir la ou les catégories de SfN qui correspondent aux actions & mesures que vous proposez de mettre en œuvre."
+    },
+    {
+      "title": "Etape 2 - Choisir le milieu",
+      "description": "Définir le milieu (urbain, agricole, forestier, cotiers...) dans lequel vous implantez la SfN. Ce milieu permettra de définir les impacts socio-économiques potentiels de la SFN qui pourraient être pertinents pour votre évaluation."
+    },
+    {
+      "title": "Etape 3 - Dimensionner la SfN",
+      "description": "Préciser la taille/l'ampleur des actions et mesures que vous proposez de mettre en œuvre. Si celles-si ne couvrent que de petites surfaces, vous irez directement à l'Etape 6 pour fournir une description qualitative des impacts attendus. Sinon, l'Etape 4 vous attend!"
+    },
+    {
+      "title": "Etape 4 - Contextualiser",
+      "description": "Parmi les impacts potentiels identifiés, seuls certains seront effectivement réalisés en fonction du contexte local et des mesures d’accompagnement que vous mettrez en œuvre autour de la SfN (par exemple, pour faciliter l'accès du public), certains impacts seront effectivement produits: une étape clé qui demande de connaitre votre territoire..."
+    },
+    {
+      "title": "Etape 5 - Appliquer des méthodes d'évaluation",
+      "description": "Pour chaque catégorie d'impact attendue, différentes méthodes plus ou moins complexes sont proposées: à vous de choisir celle(s) que semble(nt) répondre à vos ressources (temps, expertise disponible…) et besoins, puis de la (les) mettre en œuvre en mobilisant les sources de données et références indiquées pour vous guider.  Tel qu'indiqué ci-dessus, menez des entretiens avec des acteurs clés de votre territoire ou associez les à des réunions de travail pour consolider les données que vous utiliser et renforcer la pertinence et valeur ajoutée des analyses menées."
+    },
+    {
+      "title": "Etape 6 - Analyser et représenter",
+      "description": "Menez une analyse critique des résultats obtenus et développez des diagrammes de synthèse pour partager les résultats avec vos collègues, élus, acteurs, partenaires ou financeurs."
+    },
+    {
+      "title": "Etape 6 bis - Exemples de présentation graphique des résultats",
+      "description": "Cette étape présente deux exemples de visualisation des résultats issus du tableau de synthèse de l'étape 6. Les figures sont générées automatiquement à partir des données renseignées dans l'étape 6 et se mettent à jour à chaque modification."
+    }
+  ]
+}

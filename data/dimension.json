@@ -1,0 +1,17 @@
+{
+  "title": "Préciser l'importance et les dimensions de votre SfN",
+  "userNote": "Cette étape précise l'ambition de vos mesures et actions d'un point de vue de leur taille. Au-delà de sa taille absolue, il est important de considérer la taille relative par rapport au territoire dans lequel le SfN s’inscrit. La taille du projet est un élément important pour interpréter les impacts attendus et déterminer si une analyse systématique est nécessaire pour les évaluer de manière fiable.",
+  "question": "Au regard de sa taille - absolue et relative par rapport à la superficie du quartier/exploitation/bassin versant, vos actions et mesures auront-elles des impacts perceptibles et mesurables dans le fonctionnement de l'hydro-système, votre activité éconimique et d'autres secteurs et habitants potentiellement impactés?",
+  "answers": {
+    "yes": {
+      "label": "Oui",
+      "help": "Les impacts semblent suffisamment perceptibles et mesurables pour poursuivre leur analyse détaillée.",
+      "nextStep": 4
+    },
+    "no": {
+      "label": "Non",
+      "help": "Les impacts semblent trop limités pour justifier une analyse systématique complète.",
+      "nextStep": 6
+    }
+  }
+}
