@@ -8,7 +8,7 @@
     {
       "id": 2,
       "name": "Pertes d'activités économiques",
-      "description": "Pertes de revenus et baisse d'activité résultant de la mise en œuvre de la SfN"
+      "description": "Pertes de revenus et baisse d'activité résultant directement de la mise en œuvre de la SfN"
     },
     {
       "id": 3,
@@ -17,13 +17,13 @@
     },
     {
       "id": 4,
-      "name": "Impacts négatifs sur les services écosystémiques",
+      "name": "Impacts négatifs environnementaux",
       "description": "Impacts négatifs potentiels de la SfN sur les services écosystémiques, résultant des modifications des milieux, des usages ou des modes de gestion induites par sa mise en œuvre"
     },
     {
       "id": 5,
       "name": "Contribution aux retombées économiques pour le territoire",
-      "description": "Soutien à l'activité économique du territoire, y compris SfN de taille via des impacts indirects (p.e. filières d’intrants ou de produits) ou induits (p.e. via l’achats de biens et services par salariés des entreprises impliquées dans travaux de restauration)"
+      "description": "Soutien à l'activité économique du territoire, y compris SfN de taille via des impacts indirects (p.e. filières d’intrants ou de produits) ou induits (p.e. via l’achat de biens et services par les salariés des entreprises impliquées dans les travaux de restauration)"
     },
     {
       "id": 6,
@@ -53,7 +53,7 @@
     {
       "id": 11,
       "name": "Impact sur les productions primaires",
-      "description": "Productions agricole, forestière et piscicole (sécurisation, productions nouvelles…)"
+      "description": "Productions agricoles, forestières et piscicoles (sécurisation, productions nouvelles…)"
     },
     {
       "id": 12,
@@ -552,5 +552,10 @@
         "14": 1
       }
     }
-  ]
+  ],
+  "screeningNote": {
+    "name": "Amélioration de la résilience du territoire",
+    "description": "Renforcement global de la capacité du territoire à faire face aux aléas climatiques et environnementaux, en réduisant sa vulnérabilité en amont des évènements, en maintenant ses fonctions pendant les perturbations, en retrouvant un fonctionnement normal après un choc, et en s’adaptant durablement aux changements",
+    "note": "Cet effet transversal est mentionné à l’étape 2 du classeur. Il ne dispose pas d’une notation ou d’un protocole distinct ; il s’apprécie à travers les bénéfices évalués ci-dessous."
+  }
 }

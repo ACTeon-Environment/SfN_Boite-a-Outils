@@ -14,7 +14,7 @@
       "type": "Références",
       "category": "Coûts de mise en œuvre",
       "authors": "",
-      "institution": "BRMG",
+      "institution": "BRGM",
       "year": 2023,
       "title": "SFN-ESO : des solutions fondées sur la nature pour une gestion durable des eaux souterraines ? Note de cadrage",
       "url": "https://infoterre.brgm.fr/rapports/RP-72417-FR.pdf",
@@ -27,7 +27,7 @@
       "institution": "OFB",
       "year": 2023,
       "title": "Evaluation économique des solutions d'adaptation fondées sur la nature",
-      "url": "https://oai-gem.ofb.fr/exl-php/document-affiche/cli_recherche_api/OUVRE_DOC/DOC00087144?vue=cli_recherche_api&amp;action=OUVRE_DOC&amp;cid=DOC00087144&amp;amp;action=OUVRE_DOC&amp;amp;cid=DOC00087144&amp;amp;fic=IMPORTS/ARTISAN/doc00087144__PDF.txt",
+      "url": "https://oai-gem.ofb.fr/exl-php/document-affiche/cli_recherche_api/OUVRE_DOC/DOC00087144?vue=cli_recherche_api&action=OUVRE_DOC&cid=DOC00087144&amp;action=OUVRE_DOC&amp;cid=DOC00087144&amp;fic=IMPORTS/ARTISAN/doc00087144__PDF.txt",
       "notes": "Coûts unitaires des SfN avec distinction entre coût d'investissement et de maintenance pour certaines SfN. Ces coûts sont comparés au coût des solutions grises à partir de la p.21"
     },
     {
@@ -58,13 +58,13 @@
       "year": 2012,
       "title": "Les financements et \nl’évaluation économique des programmes de restauration",
       "url": "https://ofb.gouv.fr/sites/ofb-gouv-fr/files/pdf/RecueilHydro_17-financements_vbat.pdf",
-      "notes": "Cette référence fait partie d'un receuil d'expériences plus large sur l'hydromorphologie des cours d'eau, accessible via le lien suivant : https://ofb.gouv.fr/doc/le-recueil-experiences-sur-hydromorphologie"
+      "notes": "Cette référence fait partie d'un recueil d'expériences plus large sur l'hydromorphologie des cours d'eau, accessible via le lien suivant : https://ofb.gouv.fr/doc/le-recueil-experiences-sur-hydromorphologie"
     },
     {
       "type": "Bases de données",
       "category": "Coûts de mise en œuvre",
       "authors": "",
-      "institution": "Agence de l'eau \nRhône-Méditérannée Corse",
+      "institution": "Agence de l'eau Rhône-Méditerranée Corse",
       "year": "Depuis\n2004",
       "title": "Observatoire des coûts",
       "url": "https://www.eaurmc.fr/jcms/gbr_5511/fr/observatoire-des-couts",
@@ -76,8 +76,8 @@
       "authors": "",
       "institution": "ACTeon \nenvironnement",
       "year": "",
-      "title": "Données - coûts de mise en oeuvre",
-      "url": "Données - Coûts mise en oeuvre",
+      "title": "Données - coûts de mise en œuvre",
+      "url": "Données - Coûts mise en œuvre",
       "notes": ""
     },
     {
@@ -137,7 +137,7 @@
       "institution": "Service de la statistique\net de la prospective (SSP) du Ministère de l'agriculture",
       "year": "",
       "title": "Signes de\nqualité et d'origine",
-      "url": "https://agreste.agriculture.gouv.fr/agreste-saiku/?plugin=true&query=query/open/RA2020_2042#query/open/RA2020_2042",
+      "url": "https://agreste.agriculture.gouv.fr/agreste-saiku/?plugin=true&query=query/open/RA2020_2042",
       "notes": ""
     },
     {
@@ -147,7 +147,7 @@
       "institution": "INSEE",
       "year": "",
       "title": "Produits intérieurs bruts \nrégionaux et valeurs ajoutées régionales de 1990 à 2024",
-      "url": "https://www.insee.fr/fr/statistiques/8391986#consulter",
+      "url": "https://www.insee.fr/fr/statistiques/8391986",
       "notes": ""
     },
     {
@@ -297,7 +297,7 @@
       "institution": "Ministère de \nla Transition écologique",
       "year": "",
       "title": "Volume total des prélèvements \nd'eau douce par territoire et selon les usages principaux",
-      "url": "https://geoidd.developpement-durable.gouv.fr/#c=indicator&i=eau_prel_territoire.vol_eau_ter_usage&s=2023&t=A08&view=map35",
+      "url": "https://geoidd.developpement-durable.gouv.fr/",
       "notes": ""
     },
     {
@@ -307,7 +307,7 @@
       "institution": "INSEE",
       "year": "",
       "title": "Statistiques locales",
-      "url": "https://statistiques-locales.insee.fr/index.php#bbox=97300,5724463,776669,434734&c=indicator&i=ds_bpe.facilities_f121&s=2024&t=A01&view=map1",
+      "url": "https://statistiques-locales.insee.fr/index.php",
       "notes": ""
     },
     {
@@ -384,7 +384,7 @@
       "type": "Références",
       "category": "Atténuation des températures",
       "authors": "",
-      "institution": "Chambre \nsyndicale Francaise de l'étanchéité",
+      "institution": "Chambre \nsyndicale Française de l'étanchéité",
       "year": 2024,
       "title": "Solution « Cool Roof » toiture-terrasse : \nDémêler le vrai du faux",
       "url": "https://consultation-pnacc.ecologie.gouv.fr/sites/default/files/2024-11/CSFE.pdf",
@@ -487,7 +487,7 @@
       "institution": "INSEE",
       "year": "",
       "title": "Statistiques locales",
-      "url": "https://statistiques-locales.insee.fr/index.php#bbox=97300,5724463,776669,434734&c=indicator&i=ds_bpe.facilities_f121&s=2024&t=A01&view=map1",
+      "url": "https://statistiques-locales.insee.fr/index.php",
       "notes": ""
     },
     {
@@ -567,7 +567,7 @@
       "institution": "Wageningen Food Safety Research (WFSR), \nWageningen Food & Biobased Research (WFBR)",
       "year": 2021,
       "title": "Application of water \ndisinfection technologies for agricultural waters",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0378377420320746#section-cited-by",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378377420320746",
       "notes": ""
     },
     {
@@ -577,7 +577,7 @@
       "institution": "Service des données\net études statistiques",
       "year": 2023,
       "title": "Volume total des \nprélèvements d'eau douce par territoire et selon les usages principaux (milliers de m³) en 2023",
-      "url": "https://geoidd.developpement-durable.gouv.fr/#c=indicator&i=eau_prel_territoire.vol_eau_ter_usage&s=2023&t=A08&view=map35",
+      "url": "https://geoidd.developpement-durable.gouv.fr/",
       "notes": ""
     },
     {
@@ -597,7 +597,7 @@
       "institution": "EauFrance",
       "year": "",
       "title": "Données sur la \nqualité des eaux de surface",
-      "url": "https://naiades.eaufrance.fr/acces-donnees#/physicochimie",
+      "url": "https://naiades.eaufrance.fr/acces-donnees",
       "notes": ""
     },
     {
@@ -697,7 +697,7 @@
       "institution": "INSEE",
       "year": "",
       "title": "Statistiques locales",
-      "url": "https://statistiques-locales.insee.fr/#c=indicator&view=map1",
+      "url": "https://statistiques-locales.insee.fr/",
       "notes": ""
     },
     {
@@ -747,7 +747,7 @@
       "institution": "Observatoire\ndes territoires",
       "year": "",
       "title": "Part de la superficie des\nespaces protégés dans la superficie du territoire (%) - aire de protection de biotope",
-      "url": "https://www.observatoire-des-territoires.gouv.fr/outils/cartographie-interactive/#c=indicator&f=APB&i=espaces_proteges.part_espace_protege&view=map76",
+      "url": "https://www.observatoire-des-territoires.gouv.fr/outils/cartographie-interactive/",
       "notes": ""
     },
     {
@@ -774,7 +774,7 @@
       "type": "Références",
       "category": "Atténuation des inondations",
       "authors": "",
-      "institution": "Syndicat Intercomunal\ndu bassin d'Arcachon",
+      "institution": "Syndicat Intercommunal\ndu bassin d'Arcachon",
       "year": 2017,
       "title": "Stratégie locale de gestion des risques d'inondations (SLGRI)\ndu Territoire à Risques Importants (TRI) d’inondation du Bassin d’Arcachon",
       "url": "https://www.siba-bassin-arcachon.fr/sites/default/files/2024-03/slgri-document-final_oct-2017_0.pdf",
@@ -827,7 +827,7 @@
       "institution": "INSEE",
       "year": "",
       "title": "Statistiques locales",
-      "url": "https://statistiques-locales.insee.fr/#c=home",
+      "url": "https://statistiques-locales.insee.fr/",
       "notes": ""
     },
     {
@@ -837,7 +837,7 @@
       "institution": "Observatoire des\nterritoires",
       "year": "",
       "title": "Publications et données",
-      "url": "https://www.observatoire-des-territoires.gouv.fr/outils/cartographie-interactive/#c=home",
+      "url": "https://www.observatoire-des-territoires.gouv.fr/outils/cartographie-interactive/",
       "notes": ""
     },
     {
@@ -934,9 +934,9 @@
       "type": "Références",
       "category": "Impacts négatifs - travaux",
       "authors": "Hérivaux, C. \nLe Coënt, P.",
-      "institution": "BRMG",
+      "institution": "BRGM",
       "year": 2021,
-      "title": "Quelles préférences de la \npopulation pour la mise en oeuvre de solutions fondées sur la nature ? Résultats d’un choice experiment sur le bassin versant du Lez (34)",
+      "title": "Quelles préférences de la \npopulation pour la mise en œuvre de solutions fondées sur la nature ? Résultats d’un choice experiment sur le bassin versant du Lez (34)",
       "url": "https://www.g-eau.fr/images/icagenda/seminaires-precos/present-precos/Prsentation_Hrivaux_Le_Coent_2021_02_11.pdf",
       "notes": ""
     },
@@ -976,7 +976,7 @@
       "authors": "Pellerin, S. et\nBamière, L. (pilotes de l'étude)",
       "institution": "INRAE",
       "year": 2019,
-      "title": "Stocker du carbone dans les sols francais : quel potentiel au regard de l'objectif 4 pour 1000 et à quel coût ?",
+      "title": "Stocker du carbone dans les sols français : quel potentiel au regard de l'objectif 4 pour 1000 et à quel coût ?",
       "url": "https://observatoire.foret.gouv.fr/api-obs/upload/INRA_2019_etude-4-pour-1000-synthese.pdf",
       "notes": ""
     },

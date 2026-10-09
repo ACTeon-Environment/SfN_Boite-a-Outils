@@ -1,0 +1,38 @@
+{
+  "note": "Ce tableau a pour objectif de vous aider à recenser et structurer les coûts liés à la mise en œuvre du projet. Il permet de rassembler, en un seul outil, les principales informations relatives aux dépenses engagées, en distinguant les coûts d’investissement et les coûts opérationnels.\n\nLes coûts recensés peuvent être supportés par différents acteurs impliqués dans le projet, tels que le maître d’ouvrage, les gestionnaires, les exploitants, les partenaires techniques ou d’autres parties prenantes concernées. Ils incluent à la fois les dépenses directement engagées pour concevoir, mettre en œuvre et gérer la SfN, ainsi que les coûts additionnels induits par des changements de pratiques ou des mesures d’accompagnement nécessaires à la réussite du projet.\n\nLe tableau est organisé autour de plusieurs champs destinés à décrire les coûts:\n- Type de coût : coûts d’investissement (liés à la mise en place du projet) et les coûts opérationnels (liés à son fonctionnement dans le temps).\n- Catégorie : la nature de la dépense et sert de repère pour le classement des coûts. Afin d’harmoniser la saisie des informations, le tableau ci-dessous présente des exemples de catégories de dépenses pouvant être mobilisées pour qualifier les coûts recensés.\n- Année : la date à laquelle la dépense est engagée. \n- Description : précision sur la dépense concernée, qu’il s’agisse de travaux, d’études, d’équipements ou d’autres actions. \n- Montant (€) : le coût en euros  \n- Source de la donnée : origine de l’information utilisée, telle qu’une facture, un devis, un marché public ou une estimation à partir de valeurs de référence. \n- Méthode d’estimation : décrit la manière dont le coût a été obtenu, qu’il s’agisse d’une donnée réelle, d’une estimation fondée sur le temps passé, d’une hypothèse ou d’un ratio. \n- Niveau de confiance : renseigne sur la fiabilité de la donnée (élevé, moyen ou faible), en fonction de la qualité de la source et de la méthode employée.",
+  "columns": [
+    "Type de coût",
+    "Catégorie",
+    "Année",
+    "Description",
+    "Montant (€)",
+    "Unité",
+    "Source de la donnée",
+    "Méthode d’estimation",
+    "Niveau de confiance"
+  ],
+  "examples": [
+    [
+      "Investissement",
+      "Administratif (permis et autorisations)",
+      "",
+      "",
+      200,
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Opérationnel",
+      "Suivi et monitoring",
+      "",
+      "",
+      25,
+      "",
+      "",
+      "",
+      ""
+    ]
+  ]
+}

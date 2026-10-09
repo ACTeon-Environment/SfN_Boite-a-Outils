@@ -30,6 +30,7 @@ let categorizationData = null;
 let sectorData = null;
 let protocolReferenceData = null;
 let stepNotes = {};
+let costCollectionData = null;
 
 async function loadData() {
   const responses = await Promise.all([
@@ -44,7 +45,8 @@ async function loadData() {
     fetch("data/categorization.json"),
     fetch("data/sectors.json"),
     fetch("data/protocol-reference-data.json"),
-    fetch("data/step-notes.json")
+    fetch("data/step-notes.json"),
+    fetch("data/cost-collection.json")
   ]);
 
   if (!responses.every(r => r.ok)) {
@@ -54,7 +56,7 @@ async function loadData() {
   [
     sfnData, impactData, dimensionData, contextData, protocolData,
     guideData, glossaryData, referencesData, categorizationData,
-    sectorData, protocolReferenceData, stepNotes
+    sectorData, protocolReferenceData, stepNotes, costCollectionData
   ] = await Promise.all(responses.map(r => r.json()));
 
   updateNavVisibility();
@@ -89,7 +91,7 @@ function potentialImpacts() {
 
 function updateNavVisibility() {
   document.querySelectorAll(".site-nav-item").forEach(button => {
-    button.hidden = !state.guideCompleted;
+    button.hidden = false;
   });
 }
 
@@ -469,6 +471,7 @@ function renderStep2() {
         <section class="impact-panel primary"><h3>Impacts principaux</h3><p class="panel-note">Éléments prioritaires.</p>${items(primary, "primary")}</section>
         <section class="impact-panel secondary"><h3>Impacts secondaires</h3><p class="panel-note">Éléments complémentaires.</p>${items(secondary, "secondary")}</section>
       </div>` : `<div class="placeholder">Choisissez un milieu pour afficher les impacts potentiels associés.</div>`}
+    ${score && impactData.screeningNote ? `<details class="help-box"><summary>${escapeHtml(impactData.screeningNote.name)}</summary><p>${textWithLineBreaks(impactData.screeningNote.description)}</p><p>${escapeHtml(impactData.screeningNote.note)}</p></details>` : ""}
     <div class="actions">
       <button class="secondary" id="previous-step">← Étape précédente</button>
       <button class="primary" id="next-step">Étape suivante →</button>
@@ -738,10 +741,11 @@ function renderMethodItems(level) {
   return level.items.map((item, index) => `
     <article class="method-item-vertical">
       <div class="method-item-title"><span>${index + 1}</span> Séquence méthodologique ${index + 1}</div>
-      <div class="method-line"><strong>1. Étapes à suivre</strong><div>${item.steps || "—"}</div></div>
-      <div class="method-line"><strong>2. Données à mobiliser</strong><div>${item.data || "—"}</div></div>
-      <div class="method-line"><strong>3. Résultats attendus</strong><div>${item.results || "—"}</div></div>
-      <div class="method-line vigilance"><strong>4. Point de vigilance</strong><div>${item.vigilance || "—"}</div></div>
+      <div class="method-line"><strong>1. Étapes à suivre</strong><div>${textWithLineBreaks(item.steps || "—")}</div></div>
+      <div class="method-line"><strong>2. Données à mobiliser</strong><div>${textWithLineBreaks(item.data || "—")}</div></div>
+      <div class="method-line"><strong>3. Résultats attendus</strong><div>${textWithLineBreaks(item.results || "—")}</div></div>
+      <div class="method-line vigilance"><strong>4. Point de vigilance</strong><div>${textWithLineBreaks(item.vigilance || "—")}</div></div>
+      ${(item.links || []).map(ref => `<p><a href="${escapeHtml(ref.url)}" target="_blank" rel="noopener">${escapeHtml(ref.label)}</a></p>`).join("")}
     </article>`).join("");
 }
 
@@ -787,6 +791,40 @@ function formatReferenceCell(value, column) {
   return escapeHtml(str);
 }
 
+function normalizeEnvironment(value) {
+  return String(value).trim().toLowerCase().replace(/^milieu\s+/, "");
+}
+
+function renderCostCollection() {
+  const result = ensureProtocolResult(1);
+  result.costRows ||= [];
+  return `<section class="cost-collection"><h4>Tableau de collecte des coûts</h4>
+    <details class="help-box"><summary>Comment renseigner les coûts</summary><p>${textWithLineBreaks(costCollectionData.note)}</p></details>
+    <p>Renseignez les dépenses du projet. Pour une dépense annuelle, saisissez une ligne par année ou le montant cumulé sur l’horizon retenu. Les exemples du classeur (200 € et 25 €) ne sont pas préremplis.</p>
+    <div class="reference-data-table-wrap"><table class="reference-data-table"><thead><tr>${costCollectionData.columns.map(c=>`<th>${escapeHtml(c)}</th>`).join("")}<th>Action</th></tr></thead>
+    <tbody>${result.costRows.map((row,i)=>`<tr>${costCollectionData.columns.map((c,j)=>`<td>${j===0?`<select data-cost-row="${i}" data-cost-col="${j}">${["Investissement","Opérationnel"].map(t=>`<option ${row[j]===t?"selected":""}>${t}</option>`).join("")}</select>`:`<input aria-label="${escapeHtml(c)} — ligne ${i+1}" data-cost-row="${i}" data-cost-col="${j}" ${j===4?'type="number" min="0" step="any"':'type="text"'} value="${escapeHtml(row[j] || "")}">`}</td>`).join("")}<td><button class="secondary" data-remove-cost="${i}">Supprimer</button></td></tr>`).join("")}</tbody></table></div>
+    <button class="secondary" id="add-cost">Ajouter une dépense</button><div id="cost-totals" class="summary"></div>
+    <button class="secondary" id="use-cost-totals">Reporter les totaux dans le résultat monétaire</button>
+  </section>`;
+}
+
+function costTotals() {
+  const rows=ensureProtocolResult(1).costRows || [];
+  const investment=rows.filter(r=>r[0]==="Investissement").reduce((sum,r)=>sum+(Number(r[4])||0),0);
+  const operational=rows.filter(r=>r[0]==="Opérationnel").reduce((sum,r)=>sum+(Number(r[4])||0),0);
+  return {investment,operational,total:investment+operational};
+}
+
+function bindCostCollection() {
+  const result=ensureProtocolResult(1);
+  const show=()=>{const t=costTotals(); const euro=v=>v.toLocaleString('fr-FR',{style:'currency',currency:'EUR'});document.getElementById('cost-totals').innerHTML=`Investissement : ${euro(t.investment)} · Opérationnel : ${euro(t.operational)} · Total : ${euro(t.total)}`;};
+  document.querySelectorAll('[data-cost-row]').forEach(el=>el.addEventListener('input',()=>{result.costRows[Number(el.dataset.costRow)][Number(el.dataset.costCol)]=el.value;show();}));
+  document.querySelectorAll('[data-remove-cost]').forEach(el=>el.addEventListener('click',()=>{result.costRows.splice(Number(el.dataset.removeCost),1);render();}));
+  document.getElementById('add-cost').addEventListener('click',()=>{result.costRows.push(['Investissement','','','','','','','','']);render();});
+  document.getElementById('use-cost-totals').addEventListener('click',()=>{const t=costTotals();result.monetary=`Investissement : ${t.investment.toLocaleString('fr-FR')} € ; coûts opérationnels : ${t.operational.toLocaleString('fr-FR')} € ; total : ${t.total.toLocaleString('fr-FR')} € (sur la période renseignée).`;render();});
+  show();
+}
+
 function renderProtocolReferenceData(impactId) {
   const data = protocolReferenceData?.[String(impactId)];
   if (!data) return "";
@@ -797,7 +835,7 @@ function renderProtocolReferenceData(impactId) {
     if (sfnIndex >= 0) {
       const filtered = rows.filter(row => {
         const sfnOk = !row[sfnIndex] || String(row[sfnIndex]).trim() === selectedSfn().name;
-        const milieuOk = milieuIndex < 0 || !row[milieuIndex] || String(row[milieuIndex]).trim().toLowerCase() === String(state.environment).trim().toLowerCase();
+        const milieuOk = milieuIndex < 0 || !row[milieuIndex] || normalizeEnvironment(row[milieuIndex]) === normalizeEnvironment(state.environment);
         return sfnOk && milieuOk;
       });
       if (filtered.length) rows = filtered;
@@ -841,7 +879,7 @@ function renderStep5() {
     <div class="step-kicker">Étape 5 sur 6</div>
     <h2>Appliquer les méthodes d’évaluation</h2>
     ${renderStepNote(5)}
-    <p class="lead">Choisissez un impact, consultez les méthodes proposées dans l’Excel, puis synthétisez vos résultats. Vous pouvez commencer par le niveau le plus simple et approfondir selon vos données et ressources.</p>
+    <p class="lead">Choisissez un impact, consultez les méthodes proposées, puis synthétisez vos résultats. Vous pouvez commencer par le niveau le plus simple et approfondir selon vos données et ressources.</p>
 
     <div class="protocol-layout">
       <aside class="protocol-nav">
@@ -877,8 +915,8 @@ function renderStep5() {
           <h4>Choisissez le niveau méthodologique</h4>
           <div class="level-options">
             ${variant?.levels.map(level => `
-              <label class="level-option ${Number(result.levelId)===level.id ? "selected" : ""}">
-                <input type="radio" name="method-level" value="${level.id}" ${Number(result.levelId)===level.id ? "checked" : ""}>
+              <label class="level-option ${result.levelId !== null && Number(result.levelId)===level.id ? "selected" : ""}">
+                <input type="radio" name="method-level" value="${level.id}" ${result.levelId !== null && Number(result.levelId)===level.id ? "checked" : ""}>
                 <strong>${level.label}</strong><span>${level.complexity}</span>
               </label>`).join("") || `<p>Aucun niveau renseigné.</p>`}
           </div>
@@ -890,17 +928,18 @@ function renderStep5() {
             ${renderMethodItems(selectedLevel)}
           </section>` : `<div class="placeholder">Sélectionnez un niveau pour afficher les étapes, données, résultats attendus et points de vigilance.</div>`}
 
-        ${variant?.references?.length ? `<details class="reference-box"><summary>Références et ressources</summary><ul>${variant.references.map(ref=>`<li><a href="${ref.url}" target="_blank" rel="noopener">${ref.label}</a></li>`).join("")}</ul></details>` : ""}
+        ${variant?.references?.length ? `<details class="reference-box"><summary>Références et ressources</summary><ul>${variant.references.map(ref=>`<li><a href="${escapeHtml(ref.url)}" target="_blank" rel="noopener">${escapeHtml(ref.label)}</a></li>`).join("")}</ul></details>` : ""}
 
         ${renderProtocolReferenceData(impactId)}
+        ${impactId === 1 ? renderCostCollection() : ""}
 
         <section class="result-form">
           <h4>Synthétiser vos résultats</h4>
           <div class="form-grid">
-            <label>Résultat qualitatif<textarea data-field="qualitative" placeholder="Décrivez les principaux effets observés ou attendus…">${result.qualitative}</textarea></label>
-            <label>Résultat quantitatif<textarea data-field="quantitative" placeholder="Indicateurs, volumes, surfaces, personnes concernées…">${result.quantitative}</textarea></label>
-            <label>Résultat monétaire<textarea data-field="monetary" placeholder="Montants en euros, coûts évités, valeur estimée…">${result.monetary}</textarea></label>
-            <label>Incertitudes et commentaires<textarea data-field="uncertainty" placeholder="Hypothèses, limites des données et précautions d’interprétation…">${result.uncertainty}</textarea></label>
+            <label>Résultat qualitatif<textarea data-field="qualitative" placeholder="Décrivez les principaux effets observés ou attendus…">${escapeHtml(result.qualitative)}</textarea></label>
+            <label>Résultat quantitatif<textarea data-field="quantitative" placeholder="Indicateurs, volumes, surfaces, personnes concernées…">${escapeHtml(result.quantitative)}</textarea></label>
+            <label>Résultat monétaire<textarea data-field="monetary" placeholder="Montants en euros, coûts évités, valeur estimée…">${escapeHtml(result.monetary)}</textarea></label>
+            <label>Incertitudes et commentaires<textarea data-field="uncertainty" placeholder="Hypothèses, limites des données et précautions d’interprétation…">${escapeHtml(result.uncertainty)}</textarea></label>
           </div>
           ${renderSectorTable(impactId, result)}
           <div class="field importance-field">
@@ -919,6 +958,7 @@ function renderStep5() {
       <button class="primary" id="next-step">Analyser les résultats →</button>
     </div>`;
 
+  if (impactId === 1) bindCostCollection();
   document.querySelectorAll('.protocol-nav-item').forEach(button => button.addEventListener('click',()=>{
     state.activeProtocolImpactId=Number(button.dataset.id); render(); window.scrollTo({top:0,behavior:'smooth'});
   }));
@@ -930,7 +970,7 @@ function renderStep5() {
   document.querySelectorAll('.result-form textarea').forEach(area => area.addEventListener('input',()=>{result[area.dataset.field]=area.value;}));
   document.querySelectorAll('.sector-choice').forEach(select => select.addEventListener('change',()=>{result.sectors ||= {}; result.sectors[select.dataset.key]=select.value;}));
   document.getElementById('importance-select').addEventListener('change',e=>{result.importance=e.target.value;});
-  document.getElementById('previous-step').addEventListener('click',()=>goToStep(4));
+  document.getElementById('previous-step').addEventListener('click',()=>goToStep(state.dimensionAnswer === 'no' ? 6 : 4));
   document.getElementById('next-step').addEventListener('click',()=>goToStep(6));
 }
 
@@ -1070,6 +1110,15 @@ function renderDirectStep6(app) {
       </div>
     </section>
 
+    <section class="report-section">
+      <h3>Résultats par catégorie d’impact</h3>
+      <p>Renseignez les effets qualitatifs et, si disponibles, les indicateurs quantitatifs et monétaires. Les coûts peuvent être détaillés dans le protocole de mise en œuvre.</p>
+      <button class="secondary" id="direct-cost-method">Consulter le protocole et collecter les coûts</button>
+      ${impactData.impacts.map(impact => { const r = ensureProtocolResult(impact.id); return `<details class="help-box"><summary>${escapeHtml(impact.name)}</summary><div class="form-grid">${[["qualitative","Qualitatif"],["quantitative","Quantitatif"],["monetary","Monétaire"],["uncertainty","Incertitudes et commentaires"]].map(([f,label]) => `<label>${label}<textarea data-direct-impact="${impact.id}" data-field="${f}">${escapeHtml(r[f])}</textarea></label>`).join("")}</div><label>Importance relative<select data-direct-impact="${impact.id}" data-field="importance"><option value="">À préciser…</option>${["Faible","Modérée","Forte"].map(v=>`<option ${r.importance===v?"selected":""}>${v}</option>`).join("")}</select></label></details>`; }).join("")}
+      ${renderSummaryTable(impactData.impacts.map(impact => ({impact, result:ensureProtocolResult(impact.id),category:impactCategory(impact.id),levelLabel:""})))}
+      ${renderDivergingImpactGraphic(impactData.impacts.map(impact=>({impact,result:ensureProtocolResult(impact.id)})))}
+      ${renderBenefitsRadar(impactData.impacts.map(impact=>({impact,result:ensureProtocolResult(impact.id)})))}
+    </section>
     <section class="final-preview">
       <div class="section-heading">
         <div>
@@ -1102,6 +1151,13 @@ function renderDirectStep6(app) {
     document.getElementById(id).addEventListener("change", render);
   });
 
+  document.querySelectorAll('[data-direct-impact]').forEach(el => {
+    el.addEventListener('input', () => { ensureProtocolResult(Number(el.dataset.directImpact))[el.dataset.field] = el.value; });
+    el.addEventListener('change', render);
+  });
+  document.getElementById('direct-cost-method').addEventListener('click', () => {
+    state.selectedImpactIds=[1]; state.activeProtocolImpactId=1; goToStep(5);
+  });
   document.getElementById("previous-step").addEventListener("click", () => goToStep(3));
   document.getElementById("print-report").addEventListener("click", () => window.print());
 }
@@ -1129,7 +1185,7 @@ function renderStep6() {
     };
 
     const variant = protocol?.variants?.[result.variantIndex || 0];
-    const level = variant?.levels?.find(item => Number(item.id) === Number(result.levelId));
+    const level = variant?.levels?.find(item => result.levelId !== null && Number(item.id) === Number(result.levelId));
 
     return {
       impact,
@@ -1147,10 +1203,11 @@ function renderStep6() {
     row.result.uncertainty
   ).length;
 
+  const summaryRows = allImpactRowsForGraphics(rows);
   const categories = {
-    cost: rows.filter(row => row.category === "cost"),
-    negative: rows.filter(row => row.category === "negative"),
-    benefit: rows.filter(row => row.category === "benefit")
+    cost: summaryRows.filter(row => row.category === "cost"),
+    negative: summaryRows.filter(row => row.category === "negative"),
+    benefit: summaryRows.filter(row => row.category === "benefit")
   };
 
   const monetaryCount = rows.filter(row => row.result.monetary?.trim()).length;

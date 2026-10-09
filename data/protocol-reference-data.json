@@ -1,7 +1,7 @@
 {
   "1": {
     "title": "Valeurs de référence \"coûts de mise en œuvre\"",
-    "note": "Les valeurs présentées constituent des coûts de référence pour la mise en œuvre de Solutions fondées sur la Nature (SfN), issus de la littérature et de retours d'expérience. Elles doivent être considérées comme des ordres de grandeur et peuvent varier selon les caractéristiques du site, le dimensionnement des aménagements, les contraintes techniques et le contexte local.\n\nLes informations présentées dans le tableau sont structurées selon les champs suivants :\nAction : intervention ou aménagement considéré.\nSous-catégorie : précision sur la variante.\nMilieu : type d'environnement concerné par l'action (agricole, urbain, littoral, etc.).\nType de SfN : catégorie fonctionnelle de Solution fondée sur la Nature à laquelle l'action est rattachée.\nType de coût : nature du coût considéré (investissement initial ou coût de gestion/entretien). Certaines mesures peuvent ainsi apparaître deux fois dans la base de données, avec des valeurs distinctes selon qu'elles concernent les coûts d'investissement ou les coûts de gestion et d'entretien.ertaines mesures peuvent ainsi apparaître deux fois dans la base de données, avec des valeurs distinctes selon qu'elles concernent les coûts d'investissement ou les coûts de gestion et d'entretien.\nDurée de vie de la mesure : durée estimée pendant laquelle l'action produit ses effets avant renouvellement ou réhabilitation.\nCoût de référence : valeur unique\nCoût minimum / Coût maximum : fourchette observées dans les sources mobilisées, permettant d'apprécier l'incertitude et la variabilité des coûts.\nUnité : unité à laquelle le coût est rapporté (€/m², €/ml, €/ha, etc.).\nAnnée de référence : année de validité de la valeur issue de la source d'origine.\nSource : référence bibliographique ou technique utilisée pour établir la valeur.",
+    "note": "Les valeurs présentées constituent des coûts de référence pour la mise en œuvre de Solutions fondées sur la Nature (SfN), issues de la littérature et de retours d'expérience. Elles doivent être considérées comme des ordres de grandeur et peuvent varier selon les caractéristiques du site, le dimensionnement des aménagements, les contraintes techniques et le contexte local.\n\nLes informations présentées dans le tableau sont structurées selon les champs suivants :\nAction : intervention ou aménagement considéré.\nSous-catégorie : précision sur la variante.\nMilieu : type d'environnement concerné par l'action (agricole, urbain, littoral, etc.).\nType de SfN : catégorie fonctionnelle de Solution fondée sur la Nature à laquelle l'action est rattachée.\nType de coût : nature du coût considéré (investissement initial ou coût de gestion/entretien). Certaines mesures peuvent ainsi apparaître deux fois dans la base de données, avec des valeurs distinctes selon qu'elles concernent les coûts d'investissement ou les coûts de gestion et d'entretien. \nDurée de vie de la mesure : durée estimée pendant laquelle l'action produit ses effets avant renouvellement ou réhabilitation.\nCoût de référence : valeur unique\nCoût minimum / Coût maximum : fourchette observée dans les sources mobilisées, permettant d'apprécier l'incertitude et la variabilité des coûts.\nUnité : unité à laquelle le coût est rapporté (€/m², €/ml, €/ha, etc.).\nAnnée de référence : année de validité de la valeur issue de la source d'origine.\nSource : référence bibliographique ou technique utilisée pour établir la valeur.",
     "columns": [
       "Action",
       "Sous catégorie",
@@ -60,7 +60,7 @@
         "https://www.eaurmc.fr/jcms/vmr_6797/fr/etude-restauration-hydromorphologique-des-cours-d-eau"
       ],
       [
-        "Abaissement de l’ouvrage en travers ",
+        "Abaissement de l’ouvrage en travers",
         "Ouvrage en enrochement",
         "",
         "Préserver et restaurer les cours d'eau",
@@ -74,7 +74,7 @@
         "https://www.eaurmc.fr/jcms/vmr_6797/fr/etude-restauration-hydromorphologique-des-cours-d-eau"
       ],
       [
-        "Abaissement de l’ouvrage en travers ",
+        "Abaissement de l’ouvrage en travers",
         "Ouvrage en béton et maçonnerie",
         "",
         "Préserver et restaurer les cours d'eau",
@@ -102,7 +102,7 @@
         "https://www.eaurmc.fr/jcms/vmr_6797/fr/etude-restauration-hydromorphologique-des-cours-d-eau"
       ],
       [
-        "Effacement de l’ouvrage en travers ",
+        "Effacement de l’ouvrage en travers",
         "Ouvrage de taille modeste",
         "",
         "Préserver et restaurer les cours d'eau",
@@ -116,7 +116,7 @@
         "https://www.eaurmc.fr/jcms/vmr_6797/fr/etude-restauration-hydromorphologique-des-cours-d-eau"
       ],
       [
-        "Effacement de l’ouvrage en travers ",
+        "Effacement de l’ouvrage en travers",
         "Cas plus complexe ou conséquent",
         "",
         "Préserver et restaurer les cours d'eau",
@@ -172,7 +172,7 @@
         "https://www.eaurmc.fr/jcms/vmr_6797/fr/etude-restauration-hydromorphologique-des-cours-d-eau"
       ],
       [
-        "Découverture d’un cours d’eau ",
+        "Découverture d’un cours d’eau",
         "Cas simple",
         "",
         "Préserver et restaurer les cours d'eau",
@@ -200,13 +200,13 @@
         "https://www.eaurmc.fr/jcms/vmr_6797/fr/etude-restauration-hydromorphologique-des-cours-d-eau"
       ],
       [
-        "Découverture d’un cours d’eau ",
+        "Découverture d’un cours d’eau",
         "Cas complexe",
         "",
         "Préserver et restaurer les cours d'eau",
         "Investissement",
         "Permanent",
-        "Plus de 1000 ",
+        "Plus de 1000",
         "",
         "",
         "€/ml",
@@ -214,7 +214,7 @@
         "https://www.eaurmc.fr/jcms/vmr_6797/fr/etude-restauration-hydromorphologique-des-cours-d-eau"
       ],
       [
-        "Remodelage du lit dans l’EBF ",
+        "Remodelage du lit dans l’EBF",
         "",
         "Agricole",
         "Préserver et restaurer les cours d'eau",
@@ -228,7 +228,7 @@
         "https://www.eaurmc.fr/jcms/vmr_6797/fr/etude-restauration-hydromorphologique-des-cours-d-eau"
       ],
       [
-        "Remodelage du lit dans l’EBF ",
+        "Remodelage du lit dans l’EBF",
         "",
         "Urbain",
         "Préserver et restaurer les cours d'eau",
@@ -242,7 +242,7 @@
         "https://www.eaurmc.fr/jcms/vmr_6797/fr/etude-restauration-hydromorphologique-des-cours-d-eau"
       ],
       [
-        "Suppression de contraintes latérales ",
+        "Suppression de contraintes latérales",
         "Arasement merlons, digues simples",
         "",
         "Préserver et restaurer les cours d'eau",
@@ -256,7 +256,7 @@
         "https://www.eaurmc.fr/jcms/vmr_6797/fr/etude-restauration-hydromorphologique-des-cours-d-eau"
       ],
       [
-        "Suppression de contraintes latérales ",
+        "Suppression de contraintes latérales",
         "Enlèvement d'enrochements",
         "",
         "Préserver et restaurer les cours d'eau",
@@ -298,7 +298,7 @@
         "https://www.eaurmc.fr/jcms/vmr_6797/fr/etude-restauration-hydromorphologique-des-cours-d-eau"
       ],
       [
-        "Traitement d'atterrissement ",
+        "Traitement d'atterrissement",
         "Simple scarification",
         "",
         "Préserver et restaurer les cours d'eau",
@@ -307,7 +307,7 @@
         1,
         0.5,
         1.5,
-        "€/m² ",
+        "€/m²",
         2014,
         "https://www.eaurmc.fr/jcms/vmr_6797/fr/etude-restauration-hydromorphologique-des-cours-d-eau"
       ],
@@ -326,7 +326,7 @@
         "https://www.eaurmc.fr/jcms/vmr_6797/fr/etude-restauration-hydromorphologique-des-cours-d-eau"
       ],
       [
-        "Curage de matériaux ",
+        "Curage de matériaux",
         "Sans exportation et volume moyen",
         "",
         "Préserver et restaurer les cours d'eau",
@@ -354,7 +354,7 @@
         "https://www.eaurmc.fr/jcms/vmr_6797/fr/etude-restauration-hydromorphologique-des-cours-d-eau"
       ],
       [
-        "Réinjection de matériaux ",
+        "Réinjection de matériaux",
         "Cas complexe",
         "",
         "Préserver et restaurer les cours d'eau",
@@ -382,7 +382,7 @@
         "https://www.eaurmc.fr/jcms/vmr_6797/fr/etude-restauration-hydromorphologique-des-cours-d-eau"
       ],
       [
-        "Restauration d’annexes fluviales ",
+        "Restauration d’annexes fluviales",
         "",
         "Agricole",
         "Préserver et restaurer les cours d'eau",
@@ -421,7 +421,7 @@
         "",
         "€/arbre",
         2021,
-        "https://oai-gem.ofb.fr/exl-php/document-affiche/cli_recherche_api/OUVRE_DOC/DOC00087144?vue=cli_recherche_api&amp;action=OUVRE_DOC&amp;cid=DOC00087144&amp;amp;action=OUVRE_DOC&amp;amp;cid=DOC00087144&amp;amp;fic=IMPORTS/ARTISAN/doc00087144__PDF.txt"
+        "https://oai-gem.ofb.fr/exl-php/document-affiche/cli_recherche_api/OUVRE_DOC/DOC00087144?vue=cli_recherche_api&action=OUVRE_DOC&cid=DOC00087144&amp;action=OUVRE_DOC&amp;cid=DOC00087144&amp;fic=IMPORTS/ARTISAN/doc00087144__PDF.txt"
       ],
       [
         "Création de parcs",
@@ -606,7 +606,7 @@
         "https://oai-gem.ofb.fr/exl-php/document-affiche/cli_recherche_api/OUVRE_DOC/DOC00087144?vue=cli_recherche_api&amp;action=OUVRE_DOC&amp;cid=DOC00087144&amp;amp;action=OUVRE_DOC&amp;amp;cid=DOC00087144&amp;amp;fic=IMPORTS/ARTISAN/doc00087144__PDF.txt"
       ],
       [
-        "Dédrainage ",
+        "Dédrainage",
         "Zone humide",
         "",
         "Préserver, restaurer et créer les zones humides",
@@ -617,7 +617,7 @@
         28,
         "€/ml",
         2021,
-        "https://oai-gem.ofb.fr/exl-php/document-affiche/cli_recherche_api/OUVRE_DOC/DOC00087144?vue=cli_recherche_api&amp;action=OUVRE_DOC&amp;cid=DOC00087144&amp;amp;action=OUVRE_DOC&amp;amp;cid=DOC00087144&amp;amp;fic=IMPORTS/ARTISAN/doc00087144__PDF.txt"
+        "https://oai-gem.ofb.fr/exl-php/document-affiche/cli_recherche_api/OUVRE_DOC/DOC00087144?vue=cli_recherche_api&action=OUVRE_DOC&cid=DOC00087144&amp;action=OUVRE_DOC&amp;cid=DOC00087144&amp;fic=IMPORTS/ARTISAN/doc00087144__PDF.txt"
       ],
       [
         "Terrassements",
@@ -729,7 +729,7 @@
         0.25,
         "€/ml",
         "2001/2007",
-        "https://oai-gem.ofb.fr/exl-php/document-affiche/cli_recherche_api/OUVRE_DOC/DOC00087144?vue=cli_recherche_api&amp;action=OUVRE_DOC&amp;cid=DOC00087144&amp;amp;action=OUVRE_DOC&amp;amp;cid=DOC00087144&amp;amp;fic=IMPORTS/ARTISAN/doc00087144__PDF.txt"
+        "https://oai-gem.ofb.fr/exl-php/document-affiche/cli_recherche_api/OUVRE_DOC/DOC00087144?vue=cli_recherche_api&action=OUVRE_DOC&cid=DOC00087144&amp;action=OUVRE_DOC&amp;cid=DOC00087144&amp;fic=IMPORTS/ARTISAN/doc00087144__PDF.txt"
       ],
       [
         "Bandes enherbées",
@@ -783,7 +783,7 @@
         "",
         110,
         180,
-        "€/m² ",
+        "€/m²",
         "",
         "https://oai-gem.ofb.fr/exl-php/document-affiche/cli_recherche_api/OUVRE_DOC/DOC00087144?vue=cli_recherche_api&amp;action=OUVRE_DOC&amp;cid=DOC00087144&amp;amp;action=OUVRE_DOC&amp;amp;cid=DOC00087144&amp;amp;fic=IMPORTS/ARTISAN/doc00087144__PDF.txt"
       ],
@@ -811,7 +811,7 @@
         120,
         "",
         "",
-        " €/m²",
+        "€/m²",
         "",
         "https://oai-gem.ofb.fr/exl-php/document-affiche/cli_recherche_api/OUVRE_DOC/DOC00087144?vue=cli_recherche_api&amp;action=OUVRE_DOC&amp;cid=DOC00087144&amp;amp;action=OUVRE_DOC&amp;amp;cid=DOC00087144&amp;amp;fic=IMPORTS/ARTISAN/doc00087144__PDF.txt"
       ],
@@ -825,7 +825,7 @@
         100,
         "",
         "",
-        " €/ml",
+        "€/ml",
         "",
         "https://oai-gem.ofb.fr/exl-php/document-affiche/cli_recherche_api/OUVRE_DOC/DOC00087144?vue=cli_recherche_api&amp;action=OUVRE_DOC&amp;cid=DOC00087144&amp;amp;action=OUVRE_DOC&amp;amp;cid=DOC00087144&amp;amp;fic=IMPORTS/ARTISAN/doc00087144__PDF.txt"
       ],
@@ -839,13 +839,13 @@
         "",
         110,
         180,
-        "€/m² ",
+        "€/m²",
         2021,
         "https://oai-gem.ofb.fr/exl-php/document-affiche/cli_recherche_api/OUVRE_DOC/DOC00087144?vue=cli_recherche_api&amp;action=OUVRE_DOC&amp;cid=DOC00087144&amp;amp;action=OUVRE_DOC&amp;amp;cid=DOC00087144&amp;amp;fic=IMPORTS/ARTISAN/doc00087144__PDF.txt"
       ],
       [
         "Toitures végétalisées",
-        "Extensensif",
+        "Extensif",
         "Urbain",
         "Assurer une gestion intégrée des eaux pluviales : désimperméabiliser, renaturer, revégétaliser",
         "Investissement",
@@ -853,7 +853,7 @@
         "",
         25,
         100,
-        "€/m² ",
+        "€/m²",
         2011,
         "https://oai-gem.ofb.fr/exl-php/document-affiche/cli_recherche_api/OUVRE_DOC/DOC00087144?vue=cli_recherche_api&amp;action=OUVRE_DOC&amp;cid=DOC00087144&amp;amp;action=OUVRE_DOC&amp;amp;cid=DOC00087144&amp;amp;fic=IMPORTS/ARTISAN/doc00087144__PDF.txt"
       ],
@@ -867,7 +867,7 @@
         "",
         100,
         200,
-        "€/m² ",
+        "€/m²",
         2011,
         "https://oai-gem.ofb.fr/exl-php/document-affiche/cli_recherche_api/OUVRE_DOC/DOC00087144?vue=cli_recherche_api&amp;action=OUVRE_DOC&amp;cid=DOC00087144&amp;amp;action=OUVRE_DOC&amp;amp;cid=DOC00087144&amp;amp;fic=IMPORTS/ARTISAN/doc00087144__PDF.txt"
       ],
@@ -897,7 +897,7 @@
         100,
         "€/ml",
         2018,
-        "https://oai-gem.ofb.fr/exl-php/document-affiche/cli_recherche_api/OUVRE_DOC/DOC00087144?vue=cli_recherche_api&amp;action=OUVRE_DOC&amp;cid=DOC00087144&amp;amp;action=OUVRE_DOC&amp;amp;cid=DOC00087144&amp;amp;fic=IMPORTS/ARTISAN/doc00087144__PDF.txt"
+        "https://oai-gem.ofb.fr/exl-php/document-affiche/cli_recherche_api/OUVRE_DOC/DOC00087144?vue=cli_recherche_api&action=OUVRE_DOC&cid=DOC00087144&amp;action=OUVRE_DOC&amp;cid=DOC00087144&amp;fic=IMPORTS/ARTISAN/doc00087144__PDF.txt"
       ],
       [
         "Suppression des remblais",
@@ -958,202 +958,202 @@
     "rows": [
       [
         "Ecosystèmes forestiers",
-        "Forêt fermée de feuillus ",
+        "Forêt fermée de feuillus",
         "Sous tout type de gestion",
         45242,
-        ""
+        227097.0980392157
       ],
       [
-        "",
+        "Ecosystèmes forestiers",
         "Forêt fermée de conifères sous tout type de gestion",
         "Sous tout type de gestion",
         33857,
-        ""
+        169948.86274509804
       ],
       [
-        "",
+        "Ecosystèmes forestiers",
         "Forêt fermée mixte sous tout type de gestion",
         "Sous tout type de gestion",
         38623,
-        ""
+        193872.31372549018
       ],
       [
-        "",
+        "Ecosystèmes forestiers",
         "Forêt ouverte de feuillus sous tout type de gestion",
         "Sous tout type de gestion",
         10094,
-        ""
+        50667.92156862745
       ],
       [
-        "",
+        "Ecosystèmes forestiers",
         "Landes, garrigues et maquis de la région",
         "Sous tout type de gestion",
         14674,
-        ""
+        73657.72549019608
       ],
       [
-        "",
+        "Ecosystèmes forestiers",
         "Moyen",
-        "",
+        "Moyen",
         14674,
         143048.78431372548
       ],
       [
         "Ecosystèmes agricoles",
-        "Cultures annuelles ",
+        "Cultures annuelles",
         "Sans pratique séquestrante",
         9190,
-        ""
+        46130.19607843137
       ],
       [
-        "",
-        "Cultures annelles en labour occasionnel et sans cultures intermédiaires",
+        "Ecosystèmes agricoles",
+        "Cultures annuelles en labour occasionnel et sans cultures intermédiaires",
         "Labour occasionnel et sans cultures intermédiaires",
         9807,
-        ""
+        49227.294117647056
       ],
       [
-        "",
-        "Cultures annuelles ",
+        "Ecosystèmes agricoles",
+        "Cultures annuelles",
         "Semi direct sans culture intermédiaires",
         10115,
-        ""
+        50773.333333333336
       ],
       [
-        "",
-        "Cultures annuelles ",
+        "Ecosystèmes agricoles",
+        "Cultures annuelles",
         "Avec cultures intermédiaires",
         10670,
-        ""
+        53559.21568627451
       ],
       [
-        "",
-        "Cultures pérennes ",
+        "Ecosystèmes agricoles",
+        "Cultures pérennes",
         "Sans pratique séquestrante",
         8792,
-        ""
+        44132.39215686274
       ],
       [
-        "",
+        "Ecosystèmes agricoles",
         "Culture pérennes ave couvert continu",
         "Sous tout type de gestion",
         10765,
-        ""
+        54036.078431372545
       ],
       [
-        "",
-        "Prairies permanentes ",
+        "Ecosystèmes agricoles",
+        "Prairies permanentes",
         "Sous tout type de gestion",
         13680,
-        ""
+        68668.23529411765
       ],
       [
-        "",
+        "Ecosystèmes agricoles",
         "Moyen",
-        "",
+        "Moyen",
         13680,
         52360.963585434176
       ],
       [
         "Ecosystèmes naturels terrestres",
-        "Pelouses en patûrages naturels ",
+        "Pelouses en pâturages naturels",
         "Sous tout type de gestion",
         13680,
-        ""
+        68668.23529411765
       ],
       [
-        "",
-        "Zones humides continentales ",
+        "Ecosystèmes naturels terrestres",
+        "Zones humides continentales",
         "Sous tout type de gestion",
         28927,
-        ""
+        145202.19607843136
       ],
       [
-        "",
-        "Milieux aquatiques continentaux ",
+        "Ecosystèmes naturels terrestres",
+        "Milieux aquatiques continentaux",
         "Sous tout type de gestion",
         0,
-        ""
+        0
       ],
       [
-        "",
-        "Tourbières ",
-        "Préservées ou restaurées ",
+        "Ecosystèmes naturels terrestres",
+        "Tourbières",
+        "Préservées ou restaurées",
         152237,
-        ""
+        764170.0392156863
       ],
       [
-        "",
-        "Tourbières ",
-        "Perturbées ou dégradées ",
+        "Ecosystèmes naturels terrestres",
+        "Tourbières",
+        "Perturbées ou dégradées",
         81875,
-        ""
+        410980.3921568627
       ],
       [
-        "",
+        "Ecosystèmes naturels terrestres",
         "Zones humides littorales",
         "Sous tout type de gestion",
         106765,
-        ""
+        535918.431372549
       ],
       [
-        "",
-        "Lagunes et lagons ",
+        "Ecosystèmes naturels terrestres",
+        "Lagunes et lagons",
         "Sous tout type de gestion",
         106765,
-        ""
+        535918.431372549
       ],
       [
-        "",
+        "Ecosystèmes naturels terrestres",
         "Plages, dunes et zones sableuses",
         "Sous tout type de gestion",
         0,
-        ""
+        0
       ],
       [
-        "",
+        "Ecosystèmes naturels terrestres",
         "Roches nues, glaciers et neiges éternelles",
         "Sous tout type de gestion",
         0,
-        ""
+        0
       ],
       [
-        "",
+        "Ecosystèmes naturels terrestres",
         "Moyen",
-        "",
+        "Moyen",
         0,
         307607.2156862745
       ],
       [
-        "Espaces verts urbains, terres imperméabilisées et terres dégardés",
-        "Terre imperméabilisée ",
+        "Espaces verts urbains, terres imperméabilisées et terres dégradées",
+        "Terre imperméabilisée",
         "Sous tout type de gestion",
         5604,
-        ""
+        28129.882352941175
       ],
       [
-        "",
+        "Espaces verts urbains, terres imperméabilisées et terres dégradées",
         "Espace vert urbain",
         "Sous tout type de gestion",
         9000,
-        ""
+        45176.470588235294
       ],
       [
-        "",
+        "Espaces verts urbains, terres imperméabilisées et terres dégradées",
         "Terre dégradée",
         "Sous tout type de gestion",
         0,
-        ""
+        0
       ],
       [
-        "",
+        "Espaces verts urbains, terres imperméabilisées et terres dégradées",
         "Moyen",
-        "",
+        "Moyen",
         "",
         24435.450980392157
       ]
     ],
-    "methodology": "Méthodologie Les valeurs de référence proviennent des estimations EFESE initialement calculées à partir d'une valeur tutélaire du carbone de 51 €/tCO₂e (euros 2017). Les valeurs présentées correspondent à la région biogéographique Atlantique (ATL), qui couvre la quasi-totalité du bassin Adour-Garonne et constitue la référence la plus représentative pour le territoire étudié.\n\nAfin de refléter l'évolution des connaissances et des recommandations nationales en matière d'évaluation économique du changement climatique, ces valeurs ont été actualisées en utilisant la valeur tutélaire du carbone retenue pour l'année d'analyse, conformément à la Stratégie française pour l'énergie et le climat.\n\nL'actualisation a été réalisée en appliquant un coefficient d'ajustement correspondant au rapport entre la valeur tutélaire du carbone applicable à l'année d'analyse (51 €/tCO₂e) et la valeur de référence de 51 €/tCO₂e utilisée dans l'étude EFESE d'origine. Source https://www.strategie-plan.gouv.fr/files/files/Publications/2025/2025-03-20%20-%20Valeur%20de%20l%27action%20pour%20le%20climat/FS-2025-NS-Quinet19mars11h.pdf \n\nLes valeurs obtenues représentent ainsi des estimations actualisées et cohérentes avec le cadre national de valorisation économique du carbone.",
+    "methodology": "Méthodologie\nLes valeurs de référence proviennent des estimations EFESE initialement calculées à partir d'une valeur tutélaire du carbone de 51 €/tCO₂e (euros 2017). Les valeurs présentées correspondent à la région biogéographique Atlantique (ATL), qui couvre la quasi-totalité du bassin Adour-Garonne et constitue la référence la plus représentative pour le territoire étudié.\n\nAfin de refléter l'évolution des connaissances et des recommandations nationales en matière d'évaluation économique du changement climatique, ces valeurs ont été actualisées en utilisant la valeur tutélaire du carbone retenue pour l'année d'analyse, conformément à la Stratégie française pour l'énergie et le climat.\n\nL'actualisation a été réalisée en appliquant un coefficient d'ajustement correspondant au rapport entre la valeur tutélaire du carbone applicable à l'année d'analyse (51 €/tCO₂e) et la valeur de référence de 51 €/tCO₂e utilisée dans l'étude EFESE d'origine. Source https://www.strategie-plan.gouv.fr/files/files/Publications/2025/2025-03-20%20-%20Valeur%20de%20l%27action%20pour%20le%20climat/FS-2025-NS-Quinet19mars11h.pdf \n\nLes valeurs obtenues représentent ainsi des estimations actualisées et cohérentes avec le cadre national de valorisation économique du carbone.",
     "sourceSheet": "Données - Stockage du carbone"
   },
   "7": {
@@ -1175,7 +1175,7 @@
     ],
     "rows": [
       [
-        "Dessalement d'eau de mer ou d'eau saumâtre ",
+        "Dessalement d'eau de mer ou d'eau saumâtre",
         "Investissement",
         "50 Millions",
         "Capacité de traitement journalière : 40 000 m3/j",
@@ -1183,20 +1183,20 @@
         "Capacité de traitement journalière : 100 - 999 m3/j",
         "230 M",
         "Capacité de traitement journalière : 200 000 m3/j",
-        "€ ",
+        "€",
         2025,
-        "https://igedd.documentation.developpement-durable.gouv.fr/documents/Affaires-0013970/015883-01_rapport_publi%C3%A9.pdf ",
+        "https://igedd.documentation.developpement-durable.gouv.fr/documents/Affaires-0013970/015883-01_rapport_publi%C3%A9.pdf",
         "Page 31"
       ],
       [
-        "",
+        "Dessalement d'eau de mer ou d'eau saumâtre",
         "Gestion",
         0.7,
-        "",
+        "Capacité de traitement journalière : 40 000 m3/j",
         0.4,
-        "",
+        "Capacité de traitement journalière : 100 - 999 m3/j",
         0.8,
-        "",
+        "Capacité de traitement journalière : 200 000 m3/j",
         "€/m3",
         2025,
         "https://igedd.documentation.developpement-durable.gouv.fr/documents/Affaires-0013970/015883-01_rapport_publi%C3%A9.pdf",
@@ -1213,20 +1213,20 @@
         "Réutilisation de 1,2 Mm3/an",
         "€",
         2026,
-        "https://www.ain.fr/app/uploads/2026/03/retour-dexperience-reutilisation-eaux-usees-traitees-usage-urbain.pdf\n",
+        "https://www.ain.fr/app/uploads/2026/03/retour-dexperience-reutilisation-eaux-usees-traitees-usage-urbain.pdf%0a",
         ""
       ],
       [
-        "",
+        "Réutilisation des eaux usées (REUT)",
         "Gestion",
         50000,
-        "",
+        "Réutilisation de 30 000 - 50 000 m3/an",
         12000,
-        "",
+        "Réutilisation de 3 000 à 3 500 m3/an",
         263000,
-        "",
+        "Réutilisation de 1,2 Mm3/an",
         "€/an",
-        "",
+        2026,
         "https://www.ain.fr/app/uploads/2026/03/retour-dexperience-reutilisation-eaux-usees-traitees-usage-agricole.pdf",
         ""
       ],
@@ -1245,17 +1245,31 @@
         "Pas de coûts moyens définis, mais quelques exemples de projets"
       ],
       [
+        "Interconnexion avec des réseaux voisins",
+        "Investissement",
         "",
         "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "\n2025",
+        445000,
+        "2,6 km de canalisations, mise en place d'un surpresseur et d'un poste de chloration pour un château d'eau",
+        "14,5 M",
+        "14 km de canalisations, échange de 13 000 m3/j dans le sens nord-sud et 8 000 m3/j dans le sens sud -nord",
+        "€",
+        "2025",
         "https://www.communaute-paysbasque.fr/actualites/toutes-les-actualites/actualite/securatisation-de-lalimentation-en-eau-potable-du-littoral-basque-linterconnexion-nive-helbarron-inauguree",
+        "Pas de coûts moyens définis, mais quelques exemples de projets"
+      ],
+      [
+        "Nouveaux forages",
+        "Investissement",
+        "4M",
+        "En moyenne,  1 130 m3/h",
+        850000,
+        "Capacité de production : 228 m3/h",
+        "60 M",
+        "\"Champ captant\" de 14 forages (250 m de profondeur, capacité de production de 10 Mm3/an), station de pompage, canalisations de refoulement, canalisation d'adduction (30 km)",
+        "€",
+        "2003",
+        "https://www.gesteau.fr/sites/default/files/cout-de-leau.pdf",
         ""
       ],
       [
@@ -1268,22 +1282,8 @@
         "60 M",
         "\"Champ captant\" de 14 forages (250 m de profondeur, capacité de production de 10 Mm3/an), station de pompage, canalisations de refoulement, canalisation d'adduction (30 km)",
         "€",
-        "2003\n",
-        "https://www.gesteau.fr/sites/default/files/cout-de-leau.pdf",
-        ""
-      ],
-      [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
         2023,
-        "https://leaubordeauxmetropole.fr/sites/default/files/2023-07/Livret-concertation-CCLM.pdf ",
+        "https://leaubordeauxmetropole.fr/sites/default/files/2023-07/Livret-concertation-CCLM.pdf",
         ""
       ],
       [
@@ -1297,21 +1297,21 @@
         "Remplissage d'une grande piscine",
         "€",
         2024,
-        "https://eausourcedistribution.fr/quels-sont-les-couts-dune-livraison-deau-par-camion-citerne/ ",
+        "https://eausourcedistribution.fr/quels-sont-les-couts-dune-livraison-deau-par-camion-citerne/",
         ""
       ],
       [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        "Distribution par camions citernes",
+        "Gestion",
+        "600\n(10-15€/m3 + 2- 4€/km)",
+        "Remplissage d'une piscine moyenne (40m3)",
+        400,
+        "Remplissage d'une petite piscine",
+        1000,
+        "Remplissage d'une grande piscine",
+        "€",
         2024,
-        "\nhttps://immobilier-tout-savoir.fr/livraison-deau-par-camion-citerne-prix",
+        "https://eausourcedistribution.fr/quels-sont-les-couts-dune-livraison-deau-par-camion-citerne/",
         ""
       ]
     ],
@@ -1320,7 +1320,7 @@
   },
   "8": {
     "title": "Coûts des solutions alternatives \"Attenuation des températures\"",
-    "note": "Ce tableau présente les coûts de référence des principales solutions alternatives de l'attenuation des températures. \n\nPour chaque solution, un coût minimum et un coût maximum sont indiqués, associés à la dimension du projet correspondant. Les coûts distinguent les dépenses qui relèvent majoritairement d'investissement (CAPEX) et/ou de coûts de gestion annuels (OPEX). Ces valeurs constituent des ordres de grandeur indicatifs, dont les sources détaillées sont accessibles via les liens indiqués dans la dernière colonne.",
+    "note": "Ce tableau présente les coûts de référence des principales solutions alternatives de l'atténuation des températures. \n\nPour chaque solution, un coût minimum et un coût maximum sont indiqués, associés à la dimension du projet correspondant. Les coûts distinguent les dépenses qui relèvent majoritairement d'investissement (CAPEX) et/ou de coûts de gestion annuels (OPEX). Ces valeurs constituent des ordres de grandeur indicatifs, dont les sources détaillées sont accessibles via les liens indiqués dans la dernière colonne.",
     "columns": [
       "Solution alternative",
       "Type de coût",
@@ -1340,47 +1340,47 @@
       [
         "Toiture réflective (cool roof)",
         "Investissement",
-        "Réflechie entre 50% et 57% de chaleur en moins qu'une toiture sombre, environ 30°C de moins à la surface",
+        "Réfléchit entre 50% et 57% de chaleur en moins qu'une toiture sombre, environ 30°C de moins à la surface",
         "40 - 70",
         "Peinture thermo-réflective, membrane réflective, revêtement en rouleau",
         20,
         "Peinture thermo - réflective",
         80,
-        "Membrane réfléctive (durée de vie > 20 ans)",
+        "Membrane réflective (durée de vie > 20 ans)",
         "€/m2",
         2025,
-        "\nhttps://www.coolroof-pro.fr/prix-cool-roof/\n\n",
+        "https://www.coolroof-pro.fr/prix-cool-roof/%0a%0a",
         "Limite : bénéfice positif\nuniquement pour les bâtiments dont les besoins de froid sont supérieurs aux besoins de\nchauffage, sinon peut-être contreproductif car augmente les besoins de chauffage l'hiver."
       ],
       [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        "Toiture réflective (cool roof)",
+        "Investissement",
+        "Réfléchit entre 50% et 57% de chaleur en moins qu'une toiture sombre, environ 30°C de moins à la surface",
+        "40 - 70",
+        "Peinture thermo-réflective, membrane réflective, revêtement en rouleau",
+        20,
+        "Peinture thermo - réflective",
+        80,
+        "Membrane réflective (durée de vie > 20 ans)",
+        "€/m2",
         2024,
         "https://consultation-pnacc.ecologie.gouv.fr/sites/default/files/2024-11/CSFE.pdf",
-        ""
+        "Limite : bénéfice positif\nuniquement pour les bâtiments dont les besoins de froid sont supérieurs aux besoins de\nchauffage, sinon peut-être contreproductif car augmente les besoins de chauffage l'hiver."
       ],
       [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        "Toiture réflective (cool roof)",
+        "Investissement",
+        "Réfléchit entre 50% et 57% de chaleur en moins qu'une toiture sombre, environ 30°C de moins à la surface",
+        "40 - 70",
+        "Peinture thermo-réflective, membrane réflective, revêtement en rouleau",
+        20,
+        "Peinture thermo - réflective",
+        80,
+        "Membrane réflective (durée de vie > 20 ans)",
+        "€/m2",
         2023,
         "https://www.soprema.fr/etancheite/cool-roof/avantages-cool-roof",
-        ""
+        "Limite : bénéfice positif\nuniquement pour les bâtiments dont les besoins de froid sont supérieurs aux besoins de\nchauffage, sinon peut-être contreproductif car augmente les besoins de chauffage l'hiver."
       ],
       [
         "Protections solaires extérieures",
@@ -1398,8 +1398,8 @@
         ""
       ],
       [
-        "",
-        "",
+        "Protections solaires extérieures",
+        "Investissement",
         "+++",
         "En moyenne 225",
         "Stores extérieurs",
@@ -1407,14 +1407,14 @@
         "",
         300,
         "",
+        "€/m2",
         "",
-        "",
-        "",
+        "https://ertec.fr/blog/budget-protection-solaire-bureaux/",
         ""
       ],
       [
-        "",
-        "",
+        "Protections solaires extérieures",
+        "Investissement",
         "+++",
         "En moyenne 300",
         "Vitrages à contrôle solaire",
@@ -1422,29 +1422,29 @@
         "",
         400,
         "",
+        "€/m2",
         "",
-        "",
-        "",
+        "https://ertec.fr/blog/budget-protection-solaire-bureaux/",
         ""
       ],
       [
-        "",
-        "",
+        "Protections solaires extérieures",
+        "Investissement",
         "++",
         "En moyenne 50",
-        "Stores intérieurs ",
+        "Stores intérieurs",
         30,
         "",
         80,
         "",
+        "€/m2",
         "",
-        "",
-        "",
+        "https://ertec.fr/blog/budget-protection-solaire-bureaux/",
         ""
       ],
       [
-        "",
-        "",
+        "Protections solaires extérieures",
+        "Investissement",
         "+",
         "En moyenne 40",
         "Rideaux - voilages",
@@ -1452,15 +1452,15 @@
         "",
         60,
         "",
+        "€/m2",
         "",
-        "",
-        "",
+        "https://ertec.fr/blog/budget-protection-solaire-bureaux/",
         ""
       ],
       [
         "Isolation thermique",
         "Investissement",
-        "Baisse de 5,4% de la consommation globale d'éléctricité (logements chauffés à l'électricité) et baisse de 5,9% pour le gaz",
+        "Baisse de 5,4% de la consommation globale d'électricité (logements chauffés à l'électricité) et baisse de 5,9% pour le gaz",
         "50 - 90",
         "Intérieur (pose comprise)",
         "03 - 10",
@@ -1469,41 +1469,41 @@
         "Isolants biosourcés hors pose",
         "€/m2",
         2025,
-        "\n\nhttps://www.travaux.com/isolation/articles/comment-estimer-le-prix-des-travaux-d-isolation\n\n",
+        "https://www.travaux.com/isolation/articles/comment-estimer-le-prix-des-travaux-d-isolation%0a%0a",
         ""
       ],
       [
-        "",
-        "",
-        "",
+        "Isolation thermique",
+        "Investissement",
+        "Baisse de 5,4% de la consommation globale d'électricité (logements chauffés à l'électricité) et baisse de 5,9% pour le gaz",
         "150 - 180",
         "Extérieure (pose comprise)",
         90,
         "Enduit, bardage, isolants minéraux et synthétiques",
         240,
-        "Façade complexe, type de surface, isolants biosourcés ",
-        "",
-        "",
-        "",
-        ""
-      ],
-      [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        "Façade complexe, type de surface, isolants biosourcés",
+        "€/m2",
         2025,
-        "https://www.statistiques.developpement-durable.gouv.fr/media/8531/download?inline ",
+        "https://www.travaux.com/isolation/articles/comment-estimer-le-prix-des-travaux-d-isolation",
         ""
       ],
       [
-        "Géothermie reversible ",
+        "Isolation thermique",
+        "Investissement",
+        "Baisse de 5,4% de la consommation globale d'électricité (logements chauffés à l'électricité) et baisse de 5,9% pour le gaz",
+        "150 - 180",
+        "Extérieure (pose comprise)",
+        90,
+        "Enduit, bardage, isolants minéraux et synthétiques",
+        240,
+        "Façade complexe, type de surface, isolants biosourcés",
+        "€/m2",
+        2025,
+        "https://www.statistiques.developpement-durable.gouv.fr/media/8531/download?inline%20",
+        ""
+      ],
+      [
+        "Géothermie reversible",
         "Investissement",
         "",
         "15 000 - 23 000",
@@ -1514,20 +1514,20 @@
         "PAC géothermique avec captage vertical, pour une maison de 120m2",
         "€",
         2026,
-        "https://www.expertise-renovation.com/guide-renovation/prix-pompe-a-chaleur-geothermique-verticale/ ",
+        "https://www.expertise-renovation.com/guide-renovation/prix-pompe-a-chaleur-geothermique-verticale/",
         ""
       ],
       [
+        "Géothermie reversible",
+        "Investissement",
         "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        "15 000 - 23 000",
+        "PAC géothermique (captage vertical)",
+        8000,
+        "PAC géothermique (captage horizontal)",
+        30000,
+        "PAC géothermique avec captage vertical, pour une maison de 120m2",
+        "€",
         2026,
         "https://www.climatisationreversible.net/quest-ce-que-la-geothermie.htm",
         ""
@@ -1545,22 +1545,22 @@
         "€",
         2021,
         "https://www.adaptaville.fr/pdf/adaptaville-78.pdf",
-        "Ce type de dispositif peut être mal reçu par les habitants, et peut véhiculer une image paradoxale de gaspillage d'eau, dans des contextes où l'accent est mis sur la pénurie et l'importance d'économiser l'eau. "
+        "Ce type de dispositif peut être mal reçu par les habitants, et peut véhiculer une image paradoxale de gaspillage d'eau, dans des contextes où l'accent est mis sur la pénurie et l'importance d'économiser l'eau."
       ],
       [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        "Brumisateurs",
+        "Investissement",
+        "A 1m, la température baisse de 8 à 10°C. Au-delà de 5m, l'effet est très limité, voir nul.",
+        "10 000 (location)\n15 000 (achat)",
+        "Installation de plusieurs brumisateurs fonctionnels",
+        1200,
+        "Brumisateurs simples",
+        18000,
+        "Kiosques brumisateurs, structures élaborées",
+        "€",
         2021,
         "https://www.e6-consulting.fr/wp-content/uploads/2021/02/VISION_RAPPORT_WEB.pdf",
-        ""
+        "Ce type de dispositif peut être mal reçu par les habitants, et peut véhiculer une image paradoxale de gaspillage d'eau, dans des contextes où l'accent est mis sur la pénurie et l'importance d'économiser l'eau."
       ]
     ],
     "methodology": "",
@@ -1585,7 +1585,7 @@
     ],
     "rows": [
       [
-        "Construction d'une station d'épuration ",
+        "Construction d'une station d'épuration",
         "Investissement",
         "1M - 3M",
         "Usine de taille moyenne, entre 3 000 à 7 000 Equivalent-Habitant",
@@ -1599,21 +1599,21 @@
         ""
       ],
       [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        "Construction d'une station d'épuration",
+        "Investissement",
+        "1M - 3M",
+        "Usine de taille moyenne, entre 3 000 à 7 000 Equivalent-Habitant",
+        30000,
+        "Usine de petite taille, pour des petites communautés (100 Equivalent-habitant)",
+        "12M",
+        "Usine de grande taille, pour un usage municipal (35 000 Equivalent-habitant)",
+        "€",
         2026,
         "https://conseils.hellopro.fr/quel-est-le-prix-d-une-station-d-epuration-collective-1688.html",
         ""
       ],
       [
-        "Ozone ",
+        "Ozone",
         "Investissement",
         20000,
         "Utilisé pour de l'eau d'irrigation",
@@ -1630,7 +1630,7 @@
         "Ultrafiltration",
         "Investissement",
         24000,
-        "",
+        "Utilisé pour de l'eau d'irrigation",
         "",
         "",
         "",
@@ -1644,7 +1644,7 @@
         "UV",
         "Investissement",
         4800,
-        "",
+        "Utilisé pour de l'eau d'irrigation",
         "",
         "",
         "",

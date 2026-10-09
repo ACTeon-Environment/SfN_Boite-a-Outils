@@ -4,35 +4,40 @@
   "additionalNote": "Vous pouvez également ajouter des éléments qui n’étaient pas présélectionnés mais qui vous semblent pertinents au regard du contexte local ou des spécificités du projet.",
   "questions": {
     "2": {
-      "territory": "La mise en œuvre de votre SfN impacte-t-elle directement la production et le revenu de certaines activités (agriculture, forêt, industrie), que ce soit par l'acquisition foncière, ou par des contraintes spécifiques qu'impose la mise en oeuvre de la SfN à l'utilisation de ressources naturelles (p.e. eau) et aux pratiques de ces activités ?",
-      "accompaniment": "Des indémnités financières sont-elles proposés aux activités économiques impactées pour compenser la perte de production/de revenu qui pouvait être attendue?"
+      "territory": "La mise en œuvre de votre SfN impacte-t-elle directement la production et le revenu de certaines activités (agriculture, forêt, industrie), que ce soit par l'acquisition foncière, ou par des contraintes spécifiques qu'impose la mise en œuvre de la SfN à l'utilisation de ressources naturelles (p.e. eau) et aux pratiques de ces activités ?",
+      "accompaniment": "Des indemnités financières sont-elles proposées aux activités économiques impactées pour compenser la perte de production/de revenu qui pouvait être attendue?"
     },
     "5": {
-      "territory": "La mise en œuvre de votre SfN demande-t-elle la mobilisation d'entreprises prestataires implantées sur le territoire ? (ingénierie écologique, acocmpagnement au changement de pratique de professionnels…)",
+      "territory": "La mise en œuvre de votre SfN demande-t-elle la mobilisation d'entreprises prestataires implantées sur le territoire ? (ingénierie écologique, accompagnement au changement de pratique de professionnels…)",
       "accompaniment": "Des conditions particulières sont-elles imposées dans les marchés publics pour impliquer en priorité des entreprises locales?"
     },
     "6": {
-      "territory": "Des activités, zones urbanisées ou habitants (à l'aval de la zone où la SfN est mise en œuvre) seront-ils moins exposés aux crues/inondations qui résulte de la mise en œuvre de la SfN?"
+      "territory": "Des activités, zones urbanisées ou habitants (à l'aval de la zone où la SfN est mise en œuvre) seront-ils moins exposés aux crues/inondations qui résultent de la mise en œuvre de la SfN?",
+      "accompaniment": ""
     },
     "7": {
-      "territory": "Des activités économiques et habitants bénéficient-ils de l'atténuation des épisodes de sécheresse qui résulte de la mise en œuvre de la SfN, que ce soit par la sécurisation d'apports d'eau aux cultures (agriculture) limitant les pertes de rendement, un appel à l'irrigation plus tardif (réduction de coûts d'irrigation), une sécurisation des ressources pour l'AEP pendant des périodes de crises...?"
+      "territory": "Des activités économiques et habitants bénéficient-ils de l'atténuation des épisodes de sécheresse qui résulte de la mise en œuvre de la SfN, que ce soit par la sécurisation d'apports d'eau aux cultures (agriculture) limitant les pertes de rendement, un appel à l'irrigation plus tardif (réduction de coûts d'irrigation), une sécurisation des ressources pour l'AEP pendant des périodes de crises...?",
+      "accompaniment": ""
     },
     "8": {
-      "territory": "Des activités économiques (agriculture: cultures et santé/bien-être du bétail), espaces publics (y compris bâtiments des administrations/lieux publics) et habitants (en particulier publics fragiles: personnes âgées, enfants et jeunes..) bénéficient-ils de l'atténuation des chaleurs extrêmes/périodes de canicules qui résulte de la mise en œuvre de la SfN?"
+      "territory": "Des activités économiques (agriculture: cultures et santé/bien-être du bétail), espaces publics (y compris bâtiments des administrations/lieux publics) et habitants (en particulier publics fragiles: personnes âgées, enfants et jeunes..) bénéficient-ils de l'atténuation des chaleurs extrêmes/périodes de canicules qui résulte de la mise en œuvre de la SfN?",
+      "accompaniment": ""
     },
     "11": {
       "territory": "La SfN mise en œuvre conduit-elle à une augmentation de superficies et/ou production agricole ou forestière pour les exploitants agricoles/forestiers du territoire?",
       "accompaniment": "Des mesures d'accompagnement ciblant les filières et circuits de distribution des produits agricoles et forestiers sont-elles proposées?"
     },
     "12": {
-      "territory": "La SfN profitera-t-elle aux professionnels du tourisme/d'activités récréatives, aux habitants et touristes visitant le territoire - que ce soit pour des sports d'eau vive, la promenade ou le jogging, des sorties pédagogique d'écoles, etc. ?",
-      "accompaniment": "Des mesures d'accompagnement (signalisation, chemin d'accès, information disponible à l'office du tourisme…) sont-elles proposées pour facilitater l'accès à la zone de la SfN?"
+      "territory": "La SfN profitera-t-elle aux professionnels du tourisme/d'activités récréatives, aux habitants et touristes visitant le territoire - que ce soit pour des sports d'eau vive, la promenade ou le jogging, des sorties pédagogiques d'écoles, etc. ?",
+      "accompaniment": "Des mesures d'accompagnement (signalisation, chemin d'accès, information disponible à l'office du tourisme…) sont-elles proposées pour faciliter l'accès à la zone de la SfN?"
     },
     "13": {
-      "territory": "Des habitants bénéficieront-ils d'une amélioration du cadre de vie (paysage, impacts positifs sur leur bien-être et santé….) qui résulteraient de la mise en œuvre de la SfN?"
+      "territory": "Des habitants bénéficieront-ils d'une amélioration du cadre de vie (paysage, impacts positifs sur leur bien-être et santé….) qui résulterait de la mise en œuvre de la SfN?",
+      "accompaniment": ""
     },
     "14": {
-      "territory": "Des espaces protégées et sites naturels emblématiques, ainsi que la biodiversité, bénéficieront-ils de la mise en œuvre de la SfN?"
+      "territory": "Des espaces protégés et sites naturels emblématiques, ainsi que la biodiversité, bénéficieront-ils de la mise en œuvre de la SfN?",
+      "accompaniment": ""
     }
   }
 }
