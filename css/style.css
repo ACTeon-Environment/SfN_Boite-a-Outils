@@ -1974,9 +1974,3 @@ button.site-nav-item {
 .site-nav-item {
   display: inline-flex;
 }
-/* Cost collection uses the same table and field styling as the protocols. */
-.cost-collection { margin: 1.5rem 0; }
-.cost-collection td input, .cost-collection td select { min-width: 130px; width: 100%; box-sizing: border-box; padding: .6rem; border: 1px solid #b9cbd4; border-radius: 6px; font: inherit; }
-.cost-collection button { margin: .5rem .5rem .5rem 0; }
-.reference-note, .methodology-note p { white-space: pre-line; }
-@media print { .cost-collection button, #direct-cost-method { display: none; } }
